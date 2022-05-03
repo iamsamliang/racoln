@@ -1,0 +1,4 @@
+2022-04-20 14:22:17 | INFO | eval_output.py | [Output] StyleACC : 90.9
+2022-04-20 14:22:17 | INFO | eval_output.py | [Output] Self-BLEU : 58.73219032615916
+2022-04-20 14:22:17 | INFO | eval_output.py | [Output] Ref-BLEU : 20.67206905407201
+2022-04-20 14:22:17 | INFO | eval_output.py | [Output] PPL : 47.45261689877623

@@ -1,0 +1,31 @@
+before: torch.Size([1, 512, 500])
+after: torch.Size([1, 512, 500])
+before: torch.Size([1, 512, 500])
+after: torch.Size([1, 512, 500])
+encoder_hidden.shape: torch.Size([1, 1, 512, 500])
+attn_hidden.shape: torch.Size([512, 500])
+encoder_outputs.shape: torch.Size([16, 512, 500])
+decoder_input.shape: torch.Size([1, 1])
+input_var.shape: torch.Size([1, 1])
+/n/fs/nlp-saml/miniconda3/envs/racoln/lib/python3.7/site-packages/torch/nn/modules/rnn.py:65: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  "num_layers={}".format(dropout, num_layers))
+Traceback (most recent call last):
+  File "train_tsf_model.py", line 121, in <module>
+    self_loss, hidden_self = computeSelfLoss(batch, G, dec, nll)
+  File "/n/fs/nlp-saml/RACoLN_unidirectional/src/util.py", line 124, in computeSelfLoss
+    decoder_outputs, decoder_hidden, ret_dict = dec(None, hidden_self.unsqueeze(0), output_selt, mask = src_mask, attn_hidden = attn_hidden_self, label=batch.C, gumbel = False, max_length = max_len)
+  File "/n/fs/nlp-saml/miniconda3/envs/racoln/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/n/fs/nlp-saml/RACoLN_unidirectional/src/model.py", line 252, in forward
+    function=function, mask = mask, gumbel=gumbel)
+  File "/n/fs/nlp-saml/RACoLN_unidirectional/src/model.py", line 197, in forward_step
+    output, hidden = self.rnn(embedded, hidden)
+  File "/n/fs/nlp-saml/miniconda3/envs/racoln/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/n/fs/nlp-saml/miniconda3/envs/racoln/lib/python3.7/site-packages/torch/nn/modules/rnn.py", line 835, in forward
+    self.check_forward_args(input, hx, batch_sizes)
+  File "/n/fs/nlp-saml/miniconda3/envs/racoln/lib/python3.7/site-packages/torch/nn/modules/rnn.py", line 232, in check_forward_args
+    self.check_hidden_size(hidden, expected_hidden_size)
+  File "/n/fs/nlp-saml/miniconda3/envs/racoln/lib/python3.7/site-packages/torch/nn/modules/rnn.py", line 226, in check_hidden_size
+    raise RuntimeError(msg.format(expected_hidden_size, list(hx.size())))
+RuntimeError: Expected hidden size (1, 1, 700), got [1, 512, 700]

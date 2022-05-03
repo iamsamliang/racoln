@@ -1,0 +1,1 @@
+{"self_loss": 4.169012546539307, "loss_r": 0, "mseLoss": 0.05308402329683304, "cycle_loss": 4.540090084075928, "_timestamp": 1651546198, "_runtime": 93, "_step": 259, "dev_loss": 8.745878019601108, "dev_accuracy": 0.6, "test_loss": 9.23236669574678, "test_accuracy": 0.564, "_wandb": {"runtime": 93}}

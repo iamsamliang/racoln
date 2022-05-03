@@ -1,0 +1,43 @@
+
+2022-05-02 21:03:17 | INFO | train_tsf_model.py | [Iteration 100] SelfLoss : 4.901 CycleLoss : 5.202 StyleLoss : 0.018 ContentLoss : 0.043
+2022-05-02 21:03:22 | INFO | train_tsf_model.py | [Iteration 100] Model Checkpoint Saved with Loss : 10.185, Acc : 54.5, BLEU : 2.625
+2022-05-02 21:03:49 | INFO | train_tsf_model.py | [Iteration 200] SelfLoss : 4.149 CycleLoss : 4.456 StyleLoss : 0.013 ContentLoss : 0.038
+2022-05-02 21:03:53 | INFO | train_tsf_model.py | [Iteration 200] Model Checkpoint Saved with Loss : 9.159, Acc : 69.3, BLEU : 3.286
+2022-05-02 21:04:20 | INFO | train_tsf_model.py | [Iteration 300] SelfLoss : 3.859 CycleLoss : 4.173 StyleLoss : 0.021 ContentLoss : 0.04
+2022-05-02 21:04:24 | INFO | train_tsf_model.py | [Iteration 300] Model Checkpoint Saved with Loss : 8.577, Acc : 70.8, BLEU : 3.987
+2022-05-02 21:04:52 | INFO | train_tsf_model.py | [Iteration 400] SelfLoss : 3.637 CycleLoss : 4.137 StyleLoss : 0.031 ContentLoss : 0.041
+2022-05-02 21:04:55 | INFO | train_tsf_model.py | [Iteration 400] Model Checkpoint Saved with Loss : 7.965, Acc : 74.2, BLEU : 4.53
+2022-05-02 21:05:23 | INFO | train_tsf_model.py | [Iteration 500] SelfLoss : 3.357 CycleLoss : 3.79 StyleLoss : 0.03 ContentLoss : 0.044
+2022-05-02 21:05:27 | INFO | train_tsf_model.py | [Iteration 500] Model Checkpoint Saved with Loss : 7.532, Acc : 73.7, BLEU : 5.23
+2022-05-02 21:05:54 | INFO | train_tsf_model.py | [Iteration 600] SelfLoss : 3.148 CycleLoss : 3.545 StyleLoss : 0.044 ContentLoss : 0.043
+2022-05-02 21:05:58 | INFO | train_tsf_model.py | [Iteration 600] Model Checkpoint Saved with Loss : 7.124, Acc : 78.5, BLEU : 5.887
+2022-05-02 21:06:26 | INFO | train_tsf_model.py | [Iteration 700] SelfLoss : 2.964 CycleLoss : 3.408 StyleLoss : 0.011 ContentLoss : 0.044
+2022-05-02 21:06:29 | INFO | train_tsf_model.py | [Iteration 700] Model Checkpoint Saved with Loss : 6.785, Acc : 79.3, BLEU : 6.898
+2022-05-02 21:06:57 | INFO | train_tsf_model.py | [Iteration 800] SelfLoss : 2.679 CycleLoss : 3.137 StyleLoss : 0.009 ContentLoss : 0.045
+2022-05-02 21:07:01 | INFO | train_tsf_model.py | [Iteration 800] Model Checkpoint Saved with Loss : 6.422, Acc : 81.1, BLEU : 7.364
+2022-05-02 21:07:29 | INFO | train_tsf_model.py | [Iteration 900] SelfLoss : 2.608 CycleLoss : 3.139 StyleLoss : 0.03 ContentLoss : 0.043
+2022-05-02 21:07:33 | INFO | train_tsf_model.py | [Iteration 900] Model Checkpoint Saved with Loss : 6.247, Acc : 81.8, BLEU : 8.483
+2022-05-02 21:08:01 | INFO | train_tsf_model.py | [Iteration 1000] SelfLoss : 2.434 CycleLoss : 2.922 StyleLoss : 0.022 ContentLoss : 0.047
+2022-05-02 21:08:04 | INFO | train_tsf_model.py | [Iteration 1000] Model Checkpoint Saved with Loss : 5.851, Acc : 83.2, BLEU : 9.519
+2022-05-02 21:08:32 | INFO | train_tsf_model.py | [Iteration 1100] SelfLoss : 2.285 CycleLoss : 2.788 StyleLoss : 0.046 ContentLoss : 0.046
+2022-05-02 21:08:36 | INFO | train_tsf_model.py | [Iteration 1100] Model Checkpoint Saved with Loss : 5.581, Acc : 86.6, BLEU : 10.546
+2022-05-02 21:09:04 | INFO | train_tsf_model.py | [Iteration 1200] SelfLoss : 2.149 CycleLoss : 2.673 StyleLoss : 0.023 ContentLoss : 0.045
+2022-05-02 21:09:08 | INFO | train_tsf_model.py | [Iteration 1200] Model Checkpoint Saved with Loss : 5.326, Acc : 87.2, BLEU : 11.862
+Traceback (most recent call last):
+  File "train_tsf_model.py", line 124, in <module>
+    loss_r, mseLoss, cycle_loss = computeOtherLoss(batch, G, dec, enc_r, attn_r, senti_r, hidden_self, BCE, mse, nll, config.device)
+  File "/n/fs/nlp-saml/RACoLN3/src/util.py", line 134, in computeOtherLoss
+    decoder_outputs_tsf, _ , output_dictionary_tsf = dec(None, hidden_tsf.unsqueeze(0), output_tsf, mask = src_mask, attn_hidden = attn_hidden_tsf, label=(1-batch.C), gumbel=False,  max_length = max_len)
+  File "/n/fs/nlp-saml/miniconda3/envs/racoln/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/n/fs/nlp-saml/RACoLN3/src/model.py", line 243, in forward
+    function=function, mask = mask, gumbel=gumbel)
+  File "/n/fs/nlp-saml/RACoLN3/src/model.py", line 191, in forward_step
+    embedded = self.embedding(input_var)
+  File "/n/fs/nlp-saml/miniconda3/envs/racoln/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/n/fs/nlp-saml/miniconda3/envs/racoln/lib/python3.7/site-packages/torch/nn/modules/sparse.py", line 160, in forward
+    self.norm_type, self.scale_grad_by_freq, self.sparse)
+  File "/n/fs/nlp-saml/miniconda3/envs/racoln/lib/python3.7/site-packages/torch/nn/functional.py", line 2043, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+KeyboardInterrupt

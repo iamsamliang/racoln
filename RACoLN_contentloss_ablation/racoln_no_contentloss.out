@@ -1,0 +1,728 @@
+wandb: Currently logged in as: iamsamliang (use `wandb login --relogin` to force relogin)
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /n/fs/nlp-saml/RACoLN_contentloss_ablation/wandb/run-20220503_072622-1vez7xel
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run no_contentLoss
+wandb: ⭐️ View project at https://wandb.ai/iamsamliang/RACoLN
+wandb: 🚀 View run at https://wandb.ai/iamsamliang/RACoLN/runs/1vez7xel
+2022-05-03 07:27:25 | INFO | train_tsf_model.py | [Iteration 100] SelfLoss : 4.663 CycleLoss : 4.92 StyleLoss : 0.047 ContentLoss : 0
+2022-05-03 07:27:30 | INFO | train_tsf_model.py | [Iteration 100] Model Checkpoint Saved with Loss : 9.641, Acc : 68.7, BLEU : 2.936
+2022-05-03 07:27:57 | INFO | train_tsf_model.py | [Iteration 200] SelfLoss : 4.073 CycleLoss : 4.436 StyleLoss : 0.051 ContentLoss : 0
+2022-05-03 07:28:01 | INFO | train_tsf_model.py | [Iteration 200] Model Checkpoint Saved with Loss : 8.638, Acc : 71.9, BLEU : 4.222
+2022-05-03 07:28:29 | INFO | train_tsf_model.py | [Iteration 300] SelfLoss : 3.761 CycleLoss : 4.182 StyleLoss : 0.042 ContentLoss : 0
+2022-05-03 07:28:32 | INFO | train_tsf_model.py | [Iteration 300] Model Checkpoint Saved with Loss : 8.057, Acc : 76.2, BLEU : 4.946
+2022-05-03 07:29:00 | INFO | train_tsf_model.py | [Iteration 400] SelfLoss : 3.512 CycleLoss : 3.964 StyleLoss : 0.063 ContentLoss : 0
+2022-05-03 07:29:04 | INFO | train_tsf_model.py | [Iteration 400] Model Checkpoint Saved with Loss : 7.51, Acc : 79.4, BLEU : 5.534
+2022-05-03 07:29:33 | INFO | train_tsf_model.py | [Iteration 500] SelfLoss : 3.306 CycleLoss : 3.787 StyleLoss : 0.063 ContentLoss : 0
+2022-05-03 07:29:37 | INFO | train_tsf_model.py | [Iteration 500] Model Checkpoint Saved with Loss : 7.101, Acc : 81.3, BLEU : 6.095
+2022-05-03 07:30:06 | INFO | train_tsf_model.py | [Iteration 600] SelfLoss : 3.124 CycleLoss : 3.612 StyleLoss : 0.057 ContentLoss : 0
+2022-05-03 07:30:10 | INFO | train_tsf_model.py | [Iteration 600] Model Checkpoint Saved with Loss : 6.762, Acc : 83.9, BLEU : 6.896
+2022-05-03 07:30:40 | INFO | train_tsf_model.py | [Iteration 700] SelfLoss : 2.967 CycleLoss : 3.507 StyleLoss : 0.051 ContentLoss : 0
+2022-05-03 07:30:43 | INFO | train_tsf_model.py | [Iteration 700] Model Checkpoint Saved with Loss : 6.408, Acc : 86.3, BLEU : 7.519
+2022-05-03 07:31:13 | INFO | train_tsf_model.py | [Iteration 800] SelfLoss : 2.726 CycleLoss : 3.252 StyleLoss : 0.04 ContentLoss : 0
+2022-05-03 07:31:17 | INFO | train_tsf_model.py | [Iteration 800] Model Checkpoint Saved with Loss : 6.125, Acc : 85.0, BLEU : 8.492
+2022-05-03 07:31:47 | INFO | train_tsf_model.py | [Iteration 900] SelfLoss : 2.634 CycleLoss : 3.178 StyleLoss : 0.038 ContentLoss : 0
+2022-05-03 07:31:51 | INFO | train_tsf_model.py | [Iteration 900] Model Checkpoint Saved with Loss : 5.801, Acc : 88.3, BLEU : 9.446
+2022-05-03 07:32:20 | INFO | train_tsf_model.py | [Iteration 1000] SelfLoss : 2.525 CycleLoss : 3.106 StyleLoss : 0.04 ContentLoss : 0
+2022-05-03 07:32:23 | INFO | train_tsf_model.py | [Iteration 1000] Model Checkpoint Saved with Loss : 5.563, Acc : 90.8, BLEU : 10.14
+2022-05-03 07:32:53 | INFO | train_tsf_model.py | [Iteration 1100] SelfLoss : 2.387 CycleLoss : 2.993 StyleLoss : 0.07 ContentLoss : 0
+2022-05-03 07:32:56 | INFO | train_tsf_model.py | [Iteration 1100] Model Checkpoint Saved with Loss : 5.306, Acc : 91.6, BLEU : 11.557
+2022-05-03 07:33:26 | INFO | train_tsf_model.py | [Iteration 1200] SelfLoss : 2.274 CycleLoss : 2.874 StyleLoss : 0.074 ContentLoss : 0
+2022-05-03 07:33:30 | INFO | train_tsf_model.py | [Iteration 1200] Model Checkpoint Saved with Loss : 5.115, Acc : 91.5, BLEU : 12.472
+2022-05-03 07:33:59 | INFO | train_tsf_model.py | [Iteration 1300] SelfLoss : 2.245 CycleLoss : 2.899 StyleLoss : 0.082 ContentLoss : 0
+2022-05-03 07:34:02 | INFO | train_tsf_model.py | [Iteration 1300] Model Checkpoint Saved with Loss : 4.912, Acc : 92.2, BLEU : 13.293
+2022-05-03 07:34:32 | INFO | train_tsf_model.py | [Iteration 1400] SelfLoss : 2.145 CycleLoss : 2.77 StyleLoss : 0.065 ContentLoss : 0
+2022-05-03 07:34:36 | INFO | train_tsf_model.py | [Iteration 1400] Model Checkpoint Saved with Loss : 4.71, Acc : 91.4, BLEU : 14.119
+2022-05-03 07:35:06 | INFO | train_tsf_model.py | [Iteration 1500] SelfLoss : 2.165 CycleLoss : 2.806 StyleLoss : 0.067 ContentLoss : 0
+2022-05-03 07:35:10 | INFO | train_tsf_model.py | [Iteration 1500] Model Checkpoint Saved with Loss : 4.549, Acc : 91.6, BLEU : 15.547
+2022-05-03 07:35:40 | INFO | train_tsf_model.py | [Iteration 1600] SelfLoss : 1.976 CycleLoss : 2.599 StyleLoss : 0.042 ContentLoss : 0
+2022-05-03 07:35:43 | INFO | train_tsf_model.py | [Iteration 1600] Model Checkpoint Saved with Loss : 4.354, Acc : 91.7, BLEU : 16.274
+2022-05-03 07:36:13 | INFO | train_tsf_model.py | [Iteration 1700] SelfLoss : 1.878 CycleLoss : 2.522 StyleLoss : 0.057 ContentLoss : 0
+2022-05-03 07:36:16 | INFO | train_tsf_model.py | [Iteration 1700] Model Checkpoint Saved with Loss : 4.203, Acc : 93.0, BLEU : 17.794
+2022-05-03 07:36:46 | INFO | train_tsf_model.py | [Iteration 1800] SelfLoss : 1.828 CycleLoss : 2.499 StyleLoss : 0.056 ContentLoss : 0
+2022-05-03 07:36:50 | INFO | train_tsf_model.py | [Iteration 1800] Model Checkpoint Saved with Loss : 4.09, Acc : 92.6, BLEU : 18.518
+2022-05-03 07:37:20 | INFO | train_tsf_model.py | [Iteration 1900] SelfLoss : 1.759 CycleLoss : 2.428 StyleLoss : 0.071 ContentLoss : 0
+2022-05-03 07:37:23 | INFO | train_tsf_model.py | [Iteration 1900] Model Checkpoint Saved with Loss : 3.95, Acc : 92.5, BLEU : 19.535
+2022-05-03 07:37:53 | INFO | train_tsf_model.py | [Iteration 2000] SelfLoss : 1.756 CycleLoss : 2.415 StyleLoss : 0.043 ContentLoss : 0
+2022-05-03 07:37:57 | INFO | train_tsf_model.py | [Iteration 2000] Model Checkpoint Saved with Loss : 3.904, Acc : 92.9, BLEU : 20.549
+2022-05-03 07:38:27 | INFO | train_tsf_model.py | [Iteration 2100] SelfLoss : 1.525 CycleLoss : 2.264 StyleLoss : 0.058 ContentLoss : 0
+2022-05-03 07:38:30 | INFO | train_tsf_model.py | [Iteration 2100] Model Checkpoint Saved with Loss : 3.74, Acc : 92.4, BLEU : 21.633
+2022-05-03 07:39:01 | INFO | train_tsf_model.py | [Iteration 2200] SelfLoss : 1.531 CycleLoss : 2.158 StyleLoss : 0.07 ContentLoss : 0
+2022-05-03 07:39:04 | INFO | train_tsf_model.py | [Iteration 2200] Model Checkpoint Saved with Loss : 3.599, Acc : 93.6, BLEU : 22.302
+2022-05-03 07:39:35 | INFO | train_tsf_model.py | [Iteration 2300] SelfLoss : 1.505 CycleLoss : 2.108 StyleLoss : 0.091 ContentLoss : 0
+2022-05-03 07:39:38 | INFO | train_tsf_model.py | [Iteration 2300] Model Checkpoint Saved with Loss : 3.483, Acc : 93.6, BLEU : 23.259
+2022-05-03 07:40:08 | INFO | train_tsf_model.py | [Iteration 2400] SelfLoss : 1.64 CycleLoss : 2.267 StyleLoss : 0.086 ContentLoss : 0
+2022-05-03 07:40:12 | INFO | train_tsf_model.py | [Iteration 2400] Model Checkpoint Saved with Loss : 3.381, Acc : 93.5, BLEU : 24.325
+2022-05-03 07:40:42 | INFO | train_tsf_model.py | [Iteration 2500] SelfLoss : 1.518 CycleLoss : 2.232 StyleLoss : 0.054 ContentLoss : 0
+2022-05-03 07:40:45 | INFO | train_tsf_model.py | [Iteration 2500] Model Checkpoint Saved with Loss : 3.309, Acc : 93.3, BLEU : 25.67
+2022-05-03 07:41:16 | INFO | train_tsf_model.py | [Iteration 2600] SelfLoss : 1.447 CycleLoss : 2.065 StyleLoss : 0.076 ContentLoss : 0
+2022-05-03 07:41:19 | INFO | train_tsf_model.py | [Iteration 2600] Model Checkpoint Saved with Loss : 3.191, Acc : 93.6, BLEU : 26.244
+2022-05-03 07:41:49 | INFO | train_tsf_model.py | [Iteration 2700] SelfLoss : 1.353 CycleLoss : 2.032 StyleLoss : 0.041 ContentLoss : 0
+2022-05-03 07:41:53 | INFO | train_tsf_model.py | [Iteration 2700] Model Checkpoint Saved with Loss : 3.113, Acc : 93.1, BLEU : 27.735
+2022-05-03 07:42:23 | INFO | train_tsf_model.py | [Iteration 2800] SelfLoss : 1.264 CycleLoss : 1.976 StyleLoss : 0.077 ContentLoss : 0
+2022-05-03 07:42:26 | INFO | train_tsf_model.py | [Iteration 2800] Model Checkpoint Saved with Loss : 3.039, Acc : 92.9, BLEU : 28.936
+2022-05-03 07:42:55 | INFO | train_tsf_model.py | [Iteration 2900] SelfLoss : 1.35 CycleLoss : 2.043 StyleLoss : 0.1 ContentLoss : 0
+2022-05-03 07:42:58 | INFO | train_tsf_model.py | [Iteration 2900] Model Checkpoint Saved with Loss : 3.193, Acc : 93.2, BLEU : 29.035
+2022-05-03 07:43:28 | INFO | train_tsf_model.py | [Iteration 3000] SelfLoss : 1.187 CycleLoss : 1.841 StyleLoss : 0.051 ContentLoss : 0
+2022-05-03 07:43:31 | INFO | train_tsf_model.py | [Iteration 3000] Model Checkpoint Saved with Loss : 2.883, Acc : 92.5, BLEU : 30.683
+2022-05-03 07:44:01 | INFO | train_tsf_model.py | [Iteration 3100] SelfLoss : 1.136 CycleLoss : 1.777 StyleLoss : 0.057 ContentLoss : 0
+2022-05-03 07:44:05 | INFO | train_tsf_model.py | [Iteration 3100] Model Checkpoint Saved with Loss : 2.825, Acc : 91.3, BLEU : 31.582
+2022-05-03 07:44:35 | INFO | train_tsf_model.py | [Iteration 3200] SelfLoss : 1.159 CycleLoss : 1.824 StyleLoss : 0.057 ContentLoss : 0
+2022-05-03 07:44:39 | INFO | train_tsf_model.py | [Iteration 3200] Model Checkpoint Saved with Loss : 2.739, Acc : 93.6, BLEU : 32.592
+2022-05-03 07:45:09 | INFO | train_tsf_model.py | [Iteration 3300] SelfLoss : 1.141 CycleLoss : 1.821 StyleLoss : 0.097 ContentLoss : 0
+2022-05-03 07:45:13 | INFO | train_tsf_model.py | [Iteration 3300] Model Checkpoint Saved with Loss : 2.669, Acc : 93.0, BLEU : 32.92
+2022-05-03 07:45:43 | INFO | train_tsf_model.py | [Iteration 3400] SelfLoss : 1.187 CycleLoss : 1.874 StyleLoss : 0.047 ContentLoss : 0
+2022-05-03 07:45:46 | INFO | train_tsf_model.py | [Iteration 3400] Model Checkpoint Saved with Loss : 2.619, Acc : 92.7, BLEU : 33.978
+2022-05-03 07:46:17 | INFO | train_tsf_model.py | [Iteration 3500] SelfLoss : 1.057 CycleLoss : 1.691 StyleLoss : 0.092 ContentLoss : 0
+2022-05-03 07:46:20 | INFO | train_tsf_model.py | [Iteration 3500] Model Checkpoint Saved with Loss : 2.562, Acc : 93.2, BLEU : 34.332
+2022-05-03 07:46:50 | INFO | train_tsf_model.py | [Iteration 3600] SelfLoss : 0.993 CycleLoss : 1.645 StyleLoss : 0.06 ContentLoss : 0
+2022-05-03 07:46:54 | INFO | train_tsf_model.py | [Iteration 3600] Model Checkpoint Saved with Loss : 2.489, Acc : 93.5, BLEU : 35.447
+2022-05-03 07:47:24 | INFO | train_tsf_model.py | [Iteration 3700] SelfLoss : 0.983 CycleLoss : 1.64 StyleLoss : 0.129 ContentLoss : 0
+2022-05-03 07:47:27 | INFO | train_tsf_model.py | [Iteration 3700] Model Checkpoint Saved with Loss : 2.441, Acc : 92.3, BLEU : 36.272
+2022-05-03 07:47:58 | INFO | train_tsf_model.py | [Iteration 3800] SelfLoss : 1.072 CycleLoss : 1.794 StyleLoss : 0.09 ContentLoss : 0
+2022-05-03 07:48:02 | INFO | train_tsf_model.py | [Iteration 3800] Model Checkpoint Saved with Loss : 2.388, Acc : 93.3, BLEU : 36.275
+2022-05-03 07:48:31 | INFO | train_tsf_model.py | [Iteration 3900] SelfLoss : 1.001 CycleLoss : 1.683 StyleLoss : 0.083 ContentLoss : 0
+2022-05-03 07:48:35 | INFO | train_tsf_model.py | [Iteration 3900] Model Checkpoint Saved with Loss : 2.325, Acc : 93.3, BLEU : 37.667
+2022-05-03 07:49:04 | INFO | train_tsf_model.py | [Iteration 4000] SelfLoss : 1.004 CycleLoss : 1.681 StyleLoss : 0.068 ContentLoss : 0
+2022-05-03 07:49:08 | INFO | train_tsf_model.py | [Iteration 4000] Model Checkpoint Saved with Loss : 2.301, Acc : 93.6, BLEU : 37.832
+2022-05-03 07:49:38 | INFO | train_tsf_model.py | [Iteration 4100] SelfLoss : 0.963 CycleLoss : 1.64 StyleLoss : 0.075 ContentLoss : 0
+2022-05-03 07:49:41 | INFO | train_tsf_model.py | [Iteration 4100] Model Checkpoint Saved with Loss : 2.236, Acc : 93.4, BLEU : 38.483
+2022-05-03 07:50:12 | INFO | train_tsf_model.py | [Iteration 4200] SelfLoss : 0.901 CycleLoss : 1.54 StyleLoss : 0.101 ContentLoss : 0
+2022-05-03 07:50:15 | INFO | train_tsf_model.py | [Iteration 4200] Model Checkpoint Saved with Loss : 2.222, Acc : 93.3, BLEU : 39.407
+2022-05-03 07:50:45 | INFO | train_tsf_model.py | [Iteration 4300] SelfLoss : 0.938 CycleLoss : 1.605 StyleLoss : 0.056 ContentLoss : 0
+2022-05-03 07:50:48 | INFO | train_tsf_model.py | [Iteration 4300] Model Checkpoint Saved with Loss : 2.146, Acc : 93.5, BLEU : 40.177
+2022-05-03 07:51:19 | INFO | train_tsf_model.py | [Iteration 4400] SelfLoss : 0.855 CycleLoss : 1.497 StyleLoss : 0.06 ContentLoss : 0
+2022-05-03 07:51:22 | INFO | train_tsf_model.py | [Iteration 4400] Model Checkpoint Saved with Loss : 2.124, Acc : 92.6, BLEU : 40.607
+2022-05-03 07:51:52 | INFO | train_tsf_model.py | [Iteration 4500] SelfLoss : 0.855 CycleLoss : 1.498 StyleLoss : 0.082 ContentLoss : 0
+2022-05-03 07:51:56 | INFO | train_tsf_model.py | [Iteration 4500] Model Checkpoint Saved with Loss : 2.068, Acc : 93.1, BLEU : 41.369
+2022-05-03 07:52:26 | INFO | train_tsf_model.py | [Iteration 4600] SelfLoss : 0.811 CycleLoss : 1.455 StyleLoss : 0.075 ContentLoss : 0
+2022-05-03 07:52:29 | INFO | train_tsf_model.py | [Iteration 4600] Model Checkpoint Saved with Loss : 2.043, Acc : 91.9, BLEU : 42.191
+2022-05-03 07:52:59 | INFO | train_tsf_model.py | [Iteration 4700] SelfLoss : 0.855 CycleLoss : 1.511 StyleLoss : 0.064 ContentLoss : 0
+2022-05-03 07:53:03 | INFO | train_tsf_model.py | [Iteration 4700] Model Checkpoint Saved with Loss : 1.993, Acc : 92.9, BLEU : 42.688
+2022-05-03 07:53:32 | INFO | train_tsf_model.py | [Iteration 4800] SelfLoss : 0.811 CycleLoss : 1.504 StyleLoss : 0.059 ContentLoss : 0
+2022-05-03 07:53:35 | INFO | train_tsf_model.py | [Iteration 4800] Model Checkpoint Saved with Loss : 1.96, Acc : 92.9, BLEU : 42.952
+2022-05-03 07:54:05 | INFO | train_tsf_model.py | [Iteration 4900] SelfLoss : 0.853 CycleLoss : 1.477 StyleLoss : 0.064 ContentLoss : 0
+2022-05-03 07:54:09 | INFO | train_tsf_model.py | [Iteration 4900] Model Checkpoint Saved with Loss : 1.926, Acc : 93.1, BLEU : 43.506
+2022-05-03 07:54:39 | INFO | train_tsf_model.py | [Iteration 5000] SelfLoss : 0.78 CycleLoss : 1.407 StyleLoss : 0.109 ContentLoss : 0
+2022-05-03 07:54:43 | INFO | train_tsf_model.py | [Iteration 5000] Model Checkpoint Saved with Loss : 1.886, Acc : 93.8, BLEU : 43.774
+2022-05-03 07:55:12 | INFO | train_tsf_model.py | [Iteration 5100] SelfLoss : 0.777 CycleLoss : 1.444 StyleLoss : 0.08 ContentLoss : 0
+2022-05-03 07:55:14 | INFO | train_tsf_model.py | [Iteration 5100] Model Checkpoint Saved with Loss : 1.929, Acc : 94.0, BLEU : 44.331
+2022-05-03 07:55:44 | INFO | train_tsf_model.py | [Iteration 5200] SelfLoss : 0.651 CycleLoss : 1.233 StyleLoss : 0.081 ContentLoss : 0
+2022-05-03 07:55:47 | INFO | train_tsf_model.py | [Iteration 5200] Model Checkpoint Saved with Loss : 1.811, Acc : 93.6, BLEU : 45.028
+2022-05-03 07:56:16 | INFO | train_tsf_model.py | [Iteration 5300] SelfLoss : 0.761 CycleLoss : 1.378 StyleLoss : 0.067 ContentLoss : 0
+2022-05-03 07:56:20 | INFO | train_tsf_model.py | [Iteration 5300] Model Checkpoint Saved with Loss : 1.783, Acc : 93.6, BLEU : 45.576
+2022-05-03 07:56:50 | INFO | train_tsf_model.py | [Iteration 5400] SelfLoss : 0.708 CycleLoss : 1.354 StyleLoss : 0.042 ContentLoss : 0
+2022-05-03 07:56:53 | INFO | train_tsf_model.py | [Iteration 5400] Model Checkpoint Saved with Loss : 1.752, Acc : 93.3, BLEU : 46.254
+2022-05-03 07:57:23 | INFO | train_tsf_model.py | [Iteration 5500] SelfLoss : 0.7 CycleLoss : 1.335 StyleLoss : 0.068 ContentLoss : 0
+2022-05-03 07:57:27 | INFO | train_tsf_model.py | [Iteration 5500] Model Checkpoint Saved with Loss : 1.731, Acc : 93.1, BLEU : 46.917
+2022-05-03 07:57:57 | INFO | train_tsf_model.py | [Iteration 5600] SelfLoss : 0.667 CycleLoss : 1.261 StyleLoss : 0.083 ContentLoss : 0
+2022-05-03 07:58:00 | INFO | train_tsf_model.py | [Iteration 5600] Model Checkpoint Saved with Loss : 1.718, Acc : 93.6, BLEU : 46.626
+2022-05-03 07:58:30 | INFO | train_tsf_model.py | [Iteration 5700] SelfLoss : 0.643 CycleLoss : 1.27 StyleLoss : 0.059 ContentLoss : 0
+2022-05-03 07:58:34 | INFO | train_tsf_model.py | [Iteration 5700] Model Checkpoint Saved with Loss : 1.675, Acc : 94.2, BLEU : 47.405
+2022-05-03 07:59:04 | INFO | train_tsf_model.py | [Iteration 5800] SelfLoss : 0.67 CycleLoss : 1.304 StyleLoss : 0.103 ContentLoss : 0
+2022-05-03 07:59:07 | INFO | train_tsf_model.py | [Iteration 5800] Model Checkpoint Saved with Loss : 1.645, Acc : 94.2, BLEU : 47.525
+2022-05-03 07:59:37 | INFO | train_tsf_model.py | [Iteration 5900] SelfLoss : 0.644 CycleLoss : 1.28 StyleLoss : 0.077 ContentLoss : 0
+2022-05-03 07:59:41 | INFO | train_tsf_model.py | [Iteration 5900] Model Checkpoint Saved with Loss : 1.622, Acc : 93.4, BLEU : 48.813
+2022-05-03 08:00:11 | INFO | train_tsf_model.py | [Iteration 6000] SelfLoss : 0.612 CycleLoss : 1.209 StyleLoss : 0.1 ContentLoss : 0
+2022-05-03 08:00:14 | INFO | train_tsf_model.py | [Iteration 6000] Model Checkpoint Saved with Loss : 1.585, Acc : 93.7, BLEU : 48.986
+2022-05-03 08:00:45 | INFO | train_tsf_model.py | [Iteration 6100] SelfLoss : 0.597 CycleLoss : 1.211 StyleLoss : 0.084 ContentLoss : 0
+2022-05-03 08:00:48 | INFO | train_tsf_model.py | [Iteration 6100] Model Checkpoint Saved with Loss : 1.578, Acc : 94.0, BLEU : 48.948
+2022-05-03 08:01:18 | INFO | train_tsf_model.py | [Iteration 6200] SelfLoss : 0.595 CycleLoss : 1.236 StyleLoss : 0.058 ContentLoss : 0
+2022-05-03 08:01:21 | INFO | train_tsf_model.py | [Iteration 6200] Model Checkpoint Saved with Loss : 1.581, Acc : 93.8, BLEU : 49.691
+2022-05-03 08:01:50 | INFO | train_tsf_model.py | [Iteration 6300] SelfLoss : 0.616 CycleLoss : 1.214 StyleLoss : 0.074 ContentLoss : 0
+2022-05-03 08:01:54 | INFO | train_tsf_model.py | [Iteration 6300] Model Checkpoint Saved with Loss : 1.531, Acc : 94.1, BLEU : 49.645
+2022-05-03 08:02:23 | INFO | train_tsf_model.py | [Iteration 6400] SelfLoss : 0.554 CycleLoss : 1.148 StyleLoss : 0.091 ContentLoss : 0
+2022-05-03 08:02:27 | INFO | train_tsf_model.py | [Iteration 6400] Model Checkpoint Saved with Loss : 1.511, Acc : 93.6, BLEU : 50.331
+2022-05-03 08:02:56 | INFO | train_tsf_model.py | [Iteration 6500] SelfLoss : 0.65 CycleLoss : 1.225 StyleLoss : 0.107 ContentLoss : 0
+2022-05-03 08:03:00 | INFO | train_tsf_model.py | [Iteration 6500] Model Checkpoint Saved with Loss : 1.49, Acc : 93.3, BLEU : 50.4
+2022-05-03 08:03:30 | INFO | train_tsf_model.py | [Iteration 6600] SelfLoss : 0.533 CycleLoss : 1.093 StyleLoss : 0.061 ContentLoss : 0
+2022-05-03 08:03:34 | INFO | train_tsf_model.py | [Iteration 6600] Model Checkpoint Saved with Loss : 1.46, Acc : 94.6, BLEU : 50.705
+2022-05-03 08:04:04 | INFO | train_tsf_model.py | [Iteration 6700] SelfLoss : 0.547 CycleLoss : 1.126 StyleLoss : 0.083 ContentLoss : 0
+2022-05-03 08:04:07 | INFO | train_tsf_model.py | [Iteration 6700] Model Checkpoint Saved with Loss : 1.43, Acc : 94.3, BLEU : 51.157
+2022-05-03 08:04:37 | INFO | train_tsf_model.py | [Iteration 6800] SelfLoss : 0.61 CycleLoss : 1.215 StyleLoss : 0.099 ContentLoss : 0
+2022-05-03 08:04:40 | INFO | train_tsf_model.py | [Iteration 6800] Model Checkpoint Saved with Loss : 1.414, Acc : 94.7, BLEU : 50.966
+2022-05-03 08:05:10 | INFO | train_tsf_model.py | [Iteration 6900] SelfLoss : 0.552 CycleLoss : 1.113 StyleLoss : 0.102 ContentLoss : 0
+2022-05-03 08:05:14 | INFO | train_tsf_model.py | [Iteration 6900] Model Checkpoint Saved with Loss : 1.393, Acc : 93.8, BLEU : 51.903
+2022-05-03 08:05:44 | INFO | train_tsf_model.py | [Iteration 7000] SelfLoss : 0.549 CycleLoss : 1.159 StyleLoss : 0.051 ContentLoss : 0
+2022-05-03 08:05:48 | INFO | train_tsf_model.py | [Iteration 7000] Model Checkpoint Saved with Loss : 1.371, Acc : 95.0, BLEU : 51.513
+2022-05-03 08:06:17 | INFO | train_tsf_model.py | [Iteration 7100] SelfLoss : 0.472 CycleLoss : 1.09 StyleLoss : 0.113 ContentLoss : 0
+2022-05-03 08:06:20 | INFO | train_tsf_model.py | [Iteration 7100] Model Checkpoint Saved with Loss : 1.366, Acc : 94.2, BLEU : 52.307
+2022-05-03 08:06:50 | INFO | train_tsf_model.py | [Iteration 7200] SelfLoss : 0.505 CycleLoss : 1.093 StyleLoss : 0.115 ContentLoss : 0
+2022-05-03 08:06:53 | INFO | train_tsf_model.py | [Iteration 7200] Model Checkpoint Saved with Loss : 1.341, Acc : 94.2, BLEU : 52.428
+2022-05-03 08:07:23 | INFO | train_tsf_model.py | [Iteration 7300] SelfLoss : 0.531 CycleLoss : 1.146 StyleLoss : 0.102 ContentLoss : 0
+2022-05-03 08:07:27 | INFO | train_tsf_model.py | [Iteration 7300] Model Checkpoint Saved with Loss : 1.32, Acc : 93.9, BLEU : 52.575
+2022-05-03 08:07:57 | INFO | train_tsf_model.py | [Iteration 7400] SelfLoss : 0.533 CycleLoss : 1.168 StyleLoss : 0.089 ContentLoss : 0
+2022-05-03 08:08:01 | INFO | train_tsf_model.py | [Iteration 7400] Model Checkpoint Saved with Loss : 1.307, Acc : 93.1, BLEU : 53.242
+2022-05-03 08:08:31 | INFO | train_tsf_model.py | [Iteration 7500] SelfLoss : 0.513 CycleLoss : 1.136 StyleLoss : 0.105 ContentLoss : 0
+2022-05-03 08:08:34 | INFO | train_tsf_model.py | [Iteration 7500] Model Checkpoint Saved with Loss : 1.289, Acc : 94.4, BLEU : 53.491
+2022-05-03 08:09:03 | INFO | train_tsf_model.py | [Iteration 7600] SelfLoss : 0.477 CycleLoss : 1.052 StyleLoss : 0.104 ContentLoss : 0
+2022-05-03 08:09:06 | INFO | train_tsf_model.py | [Iteration 7600] Model Checkpoint Saved with Loss : 1.288, Acc : 93.7, BLEU : 53.473
+2022-05-03 08:09:36 | INFO | train_tsf_model.py | [Iteration 7700] SelfLoss : 0.505 CycleLoss : 1.062 StyleLoss : 0.108 ContentLoss : 0
+2022-05-03 08:09:39 | INFO | train_tsf_model.py | [Iteration 7700] Model Checkpoint Saved with Loss : 1.252, Acc : 93.1, BLEU : 54.511
+2022-05-03 08:10:09 | INFO | train_tsf_model.py | [Iteration 7800] SelfLoss : 0.386 CycleLoss : 0.898 StyleLoss : 0.083 ContentLoss : 0
+2022-05-03 08:10:13 | INFO | train_tsf_model.py | [Iteration 7800] Model Checkpoint Saved with Loss : 1.229, Acc : 94.1, BLEU : 54.562
+2022-05-03 08:10:43 | INFO | train_tsf_model.py | [Iteration 7900] SelfLoss : 0.434 CycleLoss : 0.994 StyleLoss : 0.072 ContentLoss : 0
+2022-05-03 08:10:46 | INFO | train_tsf_model.py | [Iteration 7900] Model Checkpoint Saved with Loss : 1.218, Acc : 95.7, BLEU : 53.913
+2022-05-03 08:11:17 | INFO | train_tsf_model.py | [Iteration 8000] SelfLoss : 0.411 CycleLoss : 0.949 StyleLoss : 0.09 ContentLoss : 0
+2022-05-03 08:11:20 | INFO | train_tsf_model.py | [Iteration 8000] Model Checkpoint Saved with Loss : 1.191, Acc : 94.6, BLEU : 54.851
+2022-05-03 08:11:50 | INFO | train_tsf_model.py | [Iteration 8100] SelfLoss : 0.427 CycleLoss : 1.0 StyleLoss : 0.105 ContentLoss : 0
+2022-05-03 08:11:53 | INFO | train_tsf_model.py | [Iteration 8100] Model Checkpoint Saved with Loss : 1.188, Acc : 93.4, BLEU : 55.465
+2022-05-03 08:12:23 | INFO | train_tsf_model.py | [Iteration 8200] SelfLoss : 0.447 CycleLoss : 1.041 StyleLoss : 0.157 ContentLoss : 0
+2022-05-03 08:12:26 | INFO | train_tsf_model.py | [Iteration 8200] Model Checkpoint Saved with Loss : 1.202, Acc : 95.0, BLEU : 55.078
+2022-05-03 08:12:56 | INFO | train_tsf_model.py | [Iteration 8300] SelfLoss : 0.392 CycleLoss : 0.922 StyleLoss : 0.089 ContentLoss : 0
+2022-05-03 08:13:00 | INFO | train_tsf_model.py | [Iteration 8300] Model Checkpoint Saved with Loss : 1.16, Acc : 94.1, BLEU : 55.523
+2022-05-03 08:13:30 | INFO | train_tsf_model.py | [Iteration 8400] SelfLoss : 0.412 CycleLoss : 0.958 StyleLoss : 0.068 ContentLoss : 0
+2022-05-03 08:13:33 | INFO | train_tsf_model.py | [Iteration 8400] Model Checkpoint Saved with Loss : 1.148, Acc : 94.9, BLEU : 55.584
+2022-05-03 08:14:03 | INFO | train_tsf_model.py | [Iteration 8500] SelfLoss : 0.39 CycleLoss : 0.912 StyleLoss : 0.094 ContentLoss : 0
+2022-05-03 08:14:06 | INFO | train_tsf_model.py | [Iteration 8500] Model Checkpoint Saved with Loss : 1.108, Acc : 94.3, BLEU : 56.227
+2022-05-03 08:14:36 | INFO | train_tsf_model.py | [Iteration 8600] SelfLoss : 0.409 CycleLoss : 0.914 StyleLoss : 0.108 ContentLoss : 0
+2022-05-03 08:14:40 | INFO | train_tsf_model.py | [Iteration 8600] Model Checkpoint Saved with Loss : 1.107, Acc : 93.8, BLEU : 56.46
+2022-05-03 08:15:10 | INFO | train_tsf_model.py | [Iteration 8700] SelfLoss : 0.356 CycleLoss : 0.879 StyleLoss : 0.081 ContentLoss : 0
+2022-05-03 08:15:14 | INFO | train_tsf_model.py | [Iteration 8700] Model Checkpoint Saved with Loss : 1.104, Acc : 93.6, BLEU : 56.214
+2022-05-03 08:15:44 | INFO | train_tsf_model.py | [Iteration 8800] SelfLoss : 0.401 CycleLoss : 0.95 StyleLoss : 0.132 ContentLoss : 0
+2022-05-03 08:15:47 | INFO | train_tsf_model.py | [Iteration 8800] Model Checkpoint Saved with Loss : 1.096, Acc : 94.1, BLEU : 56.49
+2022-05-03 08:16:17 | INFO | train_tsf_model.py | [Iteration 8900] SelfLoss : 0.412 CycleLoss : 0.948 StyleLoss : 0.085 ContentLoss : 0
+2022-05-03 08:16:20 | INFO | train_tsf_model.py | [Iteration 8900] Model Checkpoint Saved with Loss : 1.097, Acc : 94.5, BLEU : 56.49
+2022-05-03 08:16:49 | INFO | train_tsf_model.py | [Iteration 9000] SelfLoss : 0.383 CycleLoss : 0.894 StyleLoss : 0.128 ContentLoss : 0
+2022-05-03 08:16:53 | INFO | train_tsf_model.py | [Iteration 9000] Model Checkpoint Saved with Loss : 1.071, Acc : 95.3, BLEU : 56.295
+2022-05-03 08:17:22 | INFO | train_tsf_model.py | [Iteration 9100] SelfLoss : 0.341 CycleLoss : 0.861 StyleLoss : 0.09 ContentLoss : 0
+2022-05-03 08:17:26 | INFO | train_tsf_model.py | [Iteration 9100] Model Checkpoint Saved with Loss : 1.047, Acc : 93.6, BLEU : 56.377
+2022-05-03 08:17:55 | INFO | train_tsf_model.py | [Iteration 9200] SelfLoss : 0.347 CycleLoss : 0.875 StyleLoss : 0.149 ContentLoss : 0
+2022-05-03 08:17:58 | INFO | train_tsf_model.py | [Iteration 9200] Model Checkpoint Saved with Loss : 1.042, Acc : 94.4, BLEU : 57.163
+2022-05-03 08:18:28 | INFO | train_tsf_model.py | [Iteration 9300] SelfLoss : 0.401 CycleLoss : 0.971 StyleLoss : 0.065 ContentLoss : 0
+2022-05-03 08:18:31 | INFO | train_tsf_model.py | [Iteration 9300] Model Checkpoint Saved with Loss : 1.029, Acc : 94.9, BLEU : 57.238
+2022-05-03 08:19:01 | INFO | train_tsf_model.py | [Iteration 9400] SelfLoss : 0.404 CycleLoss : 0.941 StyleLoss : 0.101 ContentLoss : 0
+2022-05-03 08:19:04 | INFO | train_tsf_model.py | [Iteration 9400] Model Checkpoint Saved with Loss : 1.021, Acc : 94.7, BLEU : 57.24
+2022-05-03 08:19:33 | INFO | train_tsf_model.py | [Iteration 9500] SelfLoss : 0.448 CycleLoss : 1.005 StyleLoss : 0.127 ContentLoss : 0
+2022-05-03 08:19:36 | INFO | train_tsf_model.py | [Iteration 9500] Model Checkpoint Saved with Loss : 1.046, Acc : 94.4, BLEU : 57.327
+2022-05-03 08:20:06 | INFO | train_tsf_model.py | [Iteration 9600] SelfLoss : 0.344 CycleLoss : 0.793 StyleLoss : 0.101 ContentLoss : 0
+2022-05-03 08:20:09 | INFO | train_tsf_model.py | [Iteration 9600] Model Checkpoint Saved with Loss : 1.015, Acc : 95.1, BLEU : 56.745
+2022-05-03 08:20:39 | INFO | train_tsf_model.py | [Iteration 9700] SelfLoss : 0.411 CycleLoss : 1.012 StyleLoss : 0.059 ContentLoss : 0
+2022-05-03 08:20:42 | INFO | train_tsf_model.py | [Iteration 9700] Model Checkpoint Saved with Loss : 1.017, Acc : 93.8, BLEU : 57.451
+2022-05-03 08:21:11 | INFO | train_tsf_model.py | [Iteration 9800] SelfLoss : 0.333 CycleLoss : 0.866 StyleLoss : 0.088 ContentLoss : 0
+2022-05-03 08:21:15 | INFO | train_tsf_model.py | [Iteration 9800] Model Checkpoint Saved with Loss : 0.98, Acc : 94.3, BLEU : 58.067
+2022-05-03 08:21:44 | INFO | train_tsf_model.py | [Iteration 9900] SelfLoss : 0.33 CycleLoss : 0.861 StyleLoss : 0.064 ContentLoss : 0
+2022-05-03 08:21:48 | INFO | train_tsf_model.py | [Iteration 9900] Model Checkpoint Saved with Loss : 0.969, Acc : 93.0, BLEU : 58.029
+2022-05-03 08:22:18 | INFO | train_tsf_model.py | [Iteration 10000] SelfLoss : 0.31 CycleLoss : 0.86 StyleLoss : 0.096 ContentLoss : 0
+2022-05-03 08:22:20 | INFO | train_tsf_model.py | [Iteration 10000] Model Checkpoint Saved with Loss : 0.98, Acc : 93.9, BLEU : 58.09
+2022-05-03 08:22:50 | INFO | train_tsf_model.py | [Iteration 10100] SelfLoss : 0.323 CycleLoss : 0.838 StyleLoss : 0.109 ContentLoss : 0
+2022-05-03 08:22:53 | INFO | train_tsf_model.py | [Iteration 10100] Model Checkpoint Saved with Loss : 0.941, Acc : 94.8, BLEU : 58.599
+2022-05-03 08:23:22 | INFO | train_tsf_model.py | [Iteration 10200] SelfLoss : 0.311 CycleLoss : 0.838 StyleLoss : 0.129 ContentLoss : 0
+2022-05-03 08:23:26 | INFO | train_tsf_model.py | [Iteration 10200] Model Checkpoint Saved with Loss : 0.931, Acc : 93.3, BLEU : 58.795
+2022-05-03 08:23:55 | INFO | train_tsf_model.py | [Iteration 10300] SelfLoss : 0.317 CycleLoss : 0.822 StyleLoss : 0.104 ContentLoss : 0
+2022-05-03 08:23:58 | INFO | train_tsf_model.py | [Iteration 10300] Model Checkpoint Saved with Loss : 0.953, Acc : 94.0, BLEU : 58.416
+2022-05-03 08:24:29 | INFO | train_tsf_model.py | [Iteration 10400] SelfLoss : 0.28 CycleLoss : 0.748 StyleLoss : 0.098 ContentLoss : 0
+2022-05-03 08:24:32 | INFO | train_tsf_model.py | [Iteration 10400] Model Checkpoint Saved with Loss : 0.921, Acc : 94.1, BLEU : 58.925
+2022-05-03 08:25:02 | INFO | train_tsf_model.py | [Iteration 10500] SelfLoss : 0.288 CycleLoss : 0.793 StyleLoss : 0.091 ContentLoss : 0
+2022-05-03 08:25:05 | INFO | train_tsf_model.py | [Iteration 10500] Model Checkpoint Saved with Loss : 0.923, Acc : 93.4, BLEU : 59.535
+2022-05-03 08:25:35 | INFO | train_tsf_model.py | [Iteration 10600] SelfLoss : 0.276 CycleLoss : 0.72 StyleLoss : 0.101 ContentLoss : 0
+2022-05-03 08:25:37 | INFO | train_tsf_model.py | [Iteration 10600] Model Checkpoint Saved with Loss : 0.94, Acc : 93.1, BLEU : 58.931
+2022-05-03 08:26:08 | INFO | train_tsf_model.py | [Iteration 10700] SelfLoss : 0.287 CycleLoss : 0.779 StyleLoss : 0.086 ContentLoss : 0
+2022-05-03 08:26:11 | INFO | train_tsf_model.py | [Iteration 10700] Model Checkpoint Saved with Loss : 0.926, Acc : 94.6, BLEU : 58.732
+2022-05-03 08:26:41 | INFO | train_tsf_model.py | [Iteration 10800] SelfLoss : 0.291 CycleLoss : 0.787 StyleLoss : 0.08 ContentLoss : 0
+2022-05-03 08:26:44 | INFO | train_tsf_model.py | [Iteration 10800] Model Checkpoint Saved with Loss : 0.935, Acc : 94.2, BLEU : 58.854
+2022-05-03 08:27:14 | INFO | train_tsf_model.py | [Iteration 10900] SelfLoss : 0.319 CycleLoss : 0.839 StyleLoss : 0.11 ContentLoss : 0
+2022-05-03 08:27:17 | INFO | train_tsf_model.py | [Iteration 10900] Model Checkpoint Saved with Loss : 0.89, Acc : 94.3, BLEU : 59.387
+2022-05-03 08:27:47 | INFO | train_tsf_model.py | [Iteration 11000] SelfLoss : 0.308 CycleLoss : 0.773 StyleLoss : 0.061 ContentLoss : 0
+2022-05-03 08:27:51 | INFO | train_tsf_model.py | [Iteration 11000] Model Checkpoint Saved with Loss : 0.88, Acc : 94.5, BLEU : 59.348
+2022-05-03 08:28:22 | INFO | train_tsf_model.py | [Iteration 11100] SelfLoss : 0.275 CycleLoss : 0.747 StyleLoss : 0.095 ContentLoss : 0
+2022-05-03 08:28:25 | INFO | train_tsf_model.py | [Iteration 11100] Model Checkpoint Saved with Loss : 0.89, Acc : 94.6, BLEU : 59.675
+2022-05-03 08:28:55 | INFO | train_tsf_model.py | [Iteration 11200] SelfLoss : 0.289 CycleLoss : 0.786 StyleLoss : 0.093 ContentLoss : 0
+2022-05-03 08:28:57 | INFO | train_tsf_model.py | [Iteration 11200] Model Checkpoint Saved with Loss : 0.908, Acc : 94.2, BLEU : 59.422
+2022-05-03 08:29:27 | INFO | train_tsf_model.py | [Iteration 11300] SelfLoss : 0.299 CycleLoss : 0.804 StyleLoss : 0.165 ContentLoss : 0
+2022-05-03 08:29:30 | INFO | train_tsf_model.py | [Iteration 11300] Model Checkpoint Saved with Loss : 0.95, Acc : 94.3, BLEU : 58.301
+2022-05-03 08:30:00 | INFO | train_tsf_model.py | [Iteration 11400] SelfLoss : 0.265 CycleLoss : 0.714 StyleLoss : 0.066 ContentLoss : 0
+2022-05-03 08:30:04 | INFO | train_tsf_model.py | [Iteration 11400] Model Checkpoint Saved with Loss : 0.878, Acc : 94.1, BLEU : 59.423
+2022-05-03 08:30:34 | INFO | train_tsf_model.py | [Iteration 11500] SelfLoss : 0.275 CycleLoss : 0.801 StyleLoss : 0.096 ContentLoss : 0
+2022-05-03 08:30:36 | INFO | train_tsf_model.py | [Iteration 11500] Model Checkpoint Saved with Loss : 0.88, Acc : 94.5, BLEU : 59.31
+2022-05-03 08:31:06 | INFO | train_tsf_model.py | [Iteration 11600] SelfLoss : 0.273 CycleLoss : 0.732 StyleLoss : 0.089 ContentLoss : 0
+2022-05-03 08:31:09 | INFO | train_tsf_model.py | [Iteration 11600] Model Checkpoint Saved with Loss : 0.866, Acc : 94.4, BLEU : 59.817
+2022-05-03 08:31:39 | INFO | train_tsf_model.py | [Iteration 11700] SelfLoss : 0.281 CycleLoss : 0.736 StyleLoss : 0.108 ContentLoss : 0
+2022-05-03 08:31:42 | INFO | train_tsf_model.py | [Iteration 11700] Model Checkpoint Saved with Loss : 0.875, Acc : 93.7, BLEU : 59.763
+2022-05-03 08:32:12 | INFO | train_tsf_model.py | [Iteration 11800] SelfLoss : 0.242 CycleLoss : 0.669 StyleLoss : 0.135 ContentLoss : 0
+2022-05-03 08:32:16 | INFO | train_tsf_model.py | [Iteration 11800] Model Checkpoint Saved with Loss : 0.838, Acc : 94.2, BLEU : 59.855
+2022-05-03 08:32:46 | INFO | train_tsf_model.py | [Iteration 11900] SelfLoss : 0.283 CycleLoss : 0.744 StyleLoss : 0.075 ContentLoss : 0
+2022-05-03 08:32:49 | INFO | train_tsf_model.py | [Iteration 11900] Model Checkpoint Saved with Loss : 0.844, Acc : 94.7, BLEU : 59.839
+2022-05-03 08:33:19 | INFO | train_tsf_model.py | [Iteration 12000] SelfLoss : 0.254 CycleLoss : 0.711 StyleLoss : 0.106 ContentLoss : 0
+2022-05-03 08:33:23 | INFO | train_tsf_model.py | [Iteration 12000] Model Checkpoint Saved with Loss : 0.818, Acc : 94.3, BLEU : 59.964
+2022-05-03 08:33:53 | INFO | train_tsf_model.py | [Iteration 12100] SelfLoss : 0.291 CycleLoss : 0.782 StyleLoss : 0.136 ContentLoss : 0
+2022-05-03 08:33:56 | INFO | train_tsf_model.py | [Iteration 12100] Model Checkpoint Saved with Loss : 0.815, Acc : 94.9, BLEU : 60.24
+2022-05-03 08:34:26 | INFO | train_tsf_model.py | [Iteration 12200] SelfLoss : 0.241 CycleLoss : 0.686 StyleLoss : 0.063 ContentLoss : 0
+2022-05-03 08:34:29 | INFO | train_tsf_model.py | [Iteration 12200] Model Checkpoint Saved with Loss : 0.853, Acc : 94.8, BLEU : 60.086
+2022-05-03 08:34:59 | INFO | train_tsf_model.py | [Iteration 12300] SelfLoss : 0.198 CycleLoss : 0.601 StyleLoss : 0.068 ContentLoss : 0
+2022-05-03 08:35:01 | INFO | train_tsf_model.py | [Iteration 12300] Model Checkpoint Saved with Loss : 0.815, Acc : 95.4, BLEU : 59.812
+2022-05-03 08:35:32 | INFO | train_tsf_model.py | [Iteration 12400] SelfLoss : 0.23 CycleLoss : 0.689 StyleLoss : 0.084 ContentLoss : 0
+2022-05-03 08:35:35 | INFO | train_tsf_model.py | [Iteration 12400] Model Checkpoint Saved with Loss : 0.81, Acc : 94.8, BLEU : 60.12
+2022-05-03 08:36:05 | INFO | train_tsf_model.py | [Iteration 12500] SelfLoss : 0.257 CycleLoss : 0.695 StyleLoss : 0.121 ContentLoss : 0
+2022-05-03 08:36:09 | INFO | train_tsf_model.py | [Iteration 12500] Model Checkpoint Saved with Loss : 0.803, Acc : 94.8, BLEU : 60.23
+2022-05-03 08:36:39 | INFO | train_tsf_model.py | [Iteration 12600] SelfLoss : 0.257 CycleLoss : 0.679 StyleLoss : 0.098 ContentLoss : 0
+2022-05-03 08:36:41 | INFO | train_tsf_model.py | [Iteration 12600] Model Checkpoint Saved with Loss : 0.799, Acc : 95.0, BLEU : 59.907
+2022-05-03 08:37:12 | INFO | train_tsf_model.py | [Iteration 12700] SelfLoss : 0.252 CycleLoss : 0.737 StyleLoss : 0.099 ContentLoss : 0
+2022-05-03 08:37:15 | INFO | train_tsf_model.py | [Iteration 12700] Model Checkpoint Saved with Loss : 0.79, Acc : 94.0, BLEU : 60.877
+2022-05-03 08:37:45 | INFO | train_tsf_model.py | [Iteration 12800] SelfLoss : 0.241 CycleLoss : 0.691 StyleLoss : 0.114 ContentLoss : 0
+2022-05-03 08:37:49 | INFO | train_tsf_model.py | [Iteration 12800] Model Checkpoint Saved with Loss : 0.783, Acc : 94.8, BLEU : 60.75
+2022-05-03 08:38:19 | INFO | train_tsf_model.py | [Iteration 12900] SelfLoss : 0.235 CycleLoss : 0.667 StyleLoss : 0.066 ContentLoss : 0
+2022-05-03 08:38:22 | INFO | train_tsf_model.py | [Iteration 12900] Model Checkpoint Saved with Loss : 0.772, Acc : 95.5, BLEU : 60.8
+2022-05-03 08:38:53 | INFO | train_tsf_model.py | [Iteration 13000] SelfLoss : 0.223 CycleLoss : 0.671 StyleLoss : 0.068 ContentLoss : 0
+2022-05-03 08:38:56 | INFO | train_tsf_model.py | [Iteration 13000] Model Checkpoint Saved with Loss : 0.793, Acc : 95.1, BLEU : 61.001
+2022-05-03 08:39:26 | INFO | train_tsf_model.py | [Iteration 13100] SelfLoss : 0.227 CycleLoss : 0.665 StyleLoss : 0.078 ContentLoss : 0
+2022-05-03 08:39:29 | INFO | train_tsf_model.py | [Iteration 13100] Model Checkpoint Saved with Loss : 0.785, Acc : 94.6, BLEU : 60.753
+2022-05-03 08:39:59 | INFO | train_tsf_model.py | [Iteration 13200] SelfLoss : 0.234 CycleLoss : 0.682 StyleLoss : 0.079 ContentLoss : 0
+2022-05-03 08:40:03 | INFO | train_tsf_model.py | [Iteration 13200] Model Checkpoint Saved with Loss : 0.791, Acc : 94.8, BLEU : 60.335
+2022-05-03 08:40:33 | INFO | train_tsf_model.py | [Iteration 13300] SelfLoss : 0.198 CycleLoss : 0.596 StyleLoss : 0.104 ContentLoss : 0
+2022-05-03 08:40:36 | INFO | train_tsf_model.py | [Iteration 13300] Model Checkpoint Saved with Loss : 0.771, Acc : 94.5, BLEU : 60.708
+2022-05-03 08:41:05 | INFO | train_tsf_model.py | [Iteration 13400] SelfLoss : 0.218 CycleLoss : 0.664 StyleLoss : 0.118 ContentLoss : 0
+2022-05-03 08:41:09 | INFO | train_tsf_model.py | [Iteration 13400] Model Checkpoint Saved with Loss : 0.757, Acc : 95.0, BLEU : 60.957
+2022-05-03 08:41:37 | INFO | train_tsf_model.py | [Iteration 13500] SelfLoss : 0.275 CycleLoss : 0.769 StyleLoss : 0.101 ContentLoss : 0
+2022-05-03 08:41:40 | INFO | train_tsf_model.py | [Iteration 13500] Model Checkpoint Saved with Loss : 0.792, Acc : 95.6, BLEU : 60.903
+2022-05-03 08:42:09 | INFO | train_tsf_model.py | [Iteration 13600] SelfLoss : 0.199 CycleLoss : 0.668 StyleLoss : 0.075 ContentLoss : 0
+2022-05-03 08:42:12 | INFO | train_tsf_model.py | [Iteration 13600] Model Checkpoint Saved with Loss : 0.758, Acc : 95.5, BLEU : 59.892
+2022-05-03 08:42:42 | INFO | train_tsf_model.py | [Iteration 13700] SelfLoss : 0.231 CycleLoss : 0.641 StyleLoss : 0.078 ContentLoss : 0
+2022-05-03 08:42:45 | INFO | train_tsf_model.py | [Iteration 13700] Model Checkpoint Saved with Loss : 0.741, Acc : 95.3, BLEU : 60.894
+2022-05-03 08:43:15 | INFO | train_tsf_model.py | [Iteration 13800] SelfLoss : 0.206 CycleLoss : 0.635 StyleLoss : 0.138 ContentLoss : 0
+2022-05-03 08:43:19 | INFO | train_tsf_model.py | [Iteration 13800] Model Checkpoint Saved with Loss : 0.736, Acc : 96.1, BLEU : 60.478
+2022-05-03 08:43:48 | INFO | train_tsf_model.py | [Iteration 13900] SelfLoss : 0.213 CycleLoss : 0.602 StyleLoss : 0.116 ContentLoss : 0
+2022-05-03 08:43:51 | INFO | train_tsf_model.py | [Iteration 13900] Model Checkpoint Saved with Loss : 0.741, Acc : 95.8, BLEU : 60.987
+2022-05-03 08:44:21 | INFO | train_tsf_model.py | [Iteration 14000] SelfLoss : 0.221 CycleLoss : 0.646 StyleLoss : 0.088 ContentLoss : 0
+2022-05-03 08:44:24 | INFO | train_tsf_model.py | [Iteration 14000] Model Checkpoint Saved with Loss : 0.738, Acc : 95.0, BLEU : 61.15
+2022-05-03 08:44:54 | INFO | train_tsf_model.py | [Iteration 14100] SelfLoss : 0.188 CycleLoss : 0.661 StyleLoss : 0.111 ContentLoss : 0
+2022-05-03 08:44:57 | INFO | train_tsf_model.py | [Iteration 14100] Model Checkpoint Saved with Loss : 0.738, Acc : 96.0, BLEU : 60.72
+2022-05-03 08:45:27 | INFO | train_tsf_model.py | [Iteration 14200] SelfLoss : 0.208 CycleLoss : 0.642 StyleLoss : 0.091 ContentLoss : 0
+2022-05-03 08:45:30 | INFO | train_tsf_model.py | [Iteration 14200] Model Checkpoint Saved with Loss : 0.728, Acc : 96.2, BLEU : 60.617
+2022-05-03 08:46:00 | INFO | train_tsf_model.py | [Iteration 14300] SelfLoss : 0.201 CycleLoss : 0.65 StyleLoss : 0.085 ContentLoss : 0
+2022-05-03 08:46:02 | INFO | train_tsf_model.py | [Iteration 14300] Model Checkpoint Saved with Loss : 0.735, Acc : 94.9, BLEU : 60.973
+2022-05-03 08:46:33 | INFO | train_tsf_model.py | [Iteration 14400] SelfLoss : 0.191 CycleLoss : 0.624 StyleLoss : 0.122 ContentLoss : 0
+2022-05-03 08:46:35 | INFO | train_tsf_model.py | [Iteration 14400] Model Checkpoint Saved with Loss : 0.727, Acc : 95.0, BLEU : 60.835
+2022-05-03 08:47:06 | INFO | train_tsf_model.py | [Iteration 14500] SelfLoss : 0.195 CycleLoss : 0.561 StyleLoss : 0.08 ContentLoss : 0
+2022-05-03 08:47:09 | INFO | train_tsf_model.py | [Iteration 14500] Model Checkpoint Saved with Loss : 0.729, Acc : 95.7, BLEU : 61.435
+2022-05-03 08:47:39 | INFO | train_tsf_model.py | [Iteration 14600] SelfLoss : 0.183 CycleLoss : 0.591 StyleLoss : 0.088 ContentLoss : 0
+2022-05-03 08:47:43 | INFO | train_tsf_model.py | [Iteration 14600] Model Checkpoint Saved with Loss : 0.721, Acc : 95.8, BLEU : 61.198
+2022-05-03 08:48:14 | INFO | train_tsf_model.py | [Iteration 14700] SelfLoss : 0.197 CycleLoss : 0.625 StyleLoss : 0.116 ContentLoss : 0
+2022-05-03 08:48:17 | INFO | train_tsf_model.py | [Iteration 14700] Model Checkpoint Saved with Loss : 0.703, Acc : 95.8, BLEU : 61.369
+2022-05-03 08:48:48 | INFO | train_tsf_model.py | [Iteration 14800] SelfLoss : 0.17 CycleLoss : 0.559 StyleLoss : 0.083 ContentLoss : 0
+2022-05-03 08:48:50 | INFO | train_tsf_model.py | [Iteration 14800] Model Checkpoint Saved with Loss : 0.702, Acc : 95.8, BLEU : 61.259
+2022-05-03 08:49:20 | INFO | train_tsf_model.py | [Iteration 14900] SelfLoss : 0.196 CycleLoss : 0.567 StyleLoss : 0.128 ContentLoss : 0
+2022-05-03 08:49:23 | INFO | train_tsf_model.py | [Iteration 14900] Model Checkpoint Saved with Loss : 0.706, Acc : 94.7, BLEU : 61.779
+2022-05-03 08:49:53 | INFO | train_tsf_model.py | [Iteration 15000] SelfLoss : 0.18 CycleLoss : 0.635 StyleLoss : 0.097 ContentLoss : 0
+2022-05-03 08:49:56 | INFO | train_tsf_model.py | [Iteration 15000] Model Checkpoint Saved with Loss : 0.685, Acc : 96.0, BLEU : 62.223
+2022-05-03 08:50:26 | INFO | train_tsf_model.py | [Iteration 15100] SelfLoss : 0.174 CycleLoss : 0.562 StyleLoss : 0.095 ContentLoss : 0
+2022-05-03 08:50:29 | INFO | train_tsf_model.py | [Iteration 15100] Model Checkpoint Saved with Loss : 0.692, Acc : 95.4, BLEU : 61.83
+2022-05-03 08:50:59 | INFO | train_tsf_model.py | [Iteration 15200] SelfLoss : 0.171 CycleLoss : 0.572 StyleLoss : 0.065 ContentLoss : 0
+2022-05-03 08:51:02 | INFO | train_tsf_model.py | [Iteration 15200] Model Checkpoint Saved with Loss : 0.694, Acc : 95.6, BLEU : 61.642
+2022-05-03 08:51:32 | INFO | train_tsf_model.py | [Iteration 15300] SelfLoss : 0.183 CycleLoss : 0.558 StyleLoss : 0.098 ContentLoss : 0
+2022-05-03 08:51:35 | INFO | train_tsf_model.py | [Iteration 15300] Model Checkpoint Saved with Loss : 0.678, Acc : 95.9, BLEU : 61.995
+2022-05-03 08:52:06 | INFO | train_tsf_model.py | [Iteration 15400] SelfLoss : 0.182 CycleLoss : 0.589 StyleLoss : 0.143 ContentLoss : 0
+2022-05-03 08:52:09 | INFO | train_tsf_model.py | [Iteration 15400] Model Checkpoint Saved with Loss : 0.678, Acc : 95.4, BLEU : 62.277
+2022-05-03 08:52:39 | INFO | train_tsf_model.py | [Iteration 15500] SelfLoss : 0.198 CycleLoss : 0.635 StyleLoss : 0.09 ContentLoss : 0
+2022-05-03 08:52:42 | INFO | train_tsf_model.py | [Iteration 15500] Model Checkpoint Saved with Loss : 0.665, Acc : 95.0, BLEU : 62.561
+2022-05-03 08:53:13 | INFO | train_tsf_model.py | [Iteration 15600] SelfLoss : 0.171 CycleLoss : 0.555 StyleLoss : 0.078 ContentLoss : 0
+2022-05-03 08:53:16 | INFO | train_tsf_model.py | [Iteration 15600] Model Checkpoint Saved with Loss : 0.674, Acc : 95.7, BLEU : 62.175
+2022-05-03 08:53:45 | INFO | train_tsf_model.py | [Iteration 15700] SelfLoss : 0.159 CycleLoss : 0.532 StyleLoss : 0.102 ContentLoss : 0
+2022-05-03 08:53:48 | INFO | train_tsf_model.py | [Iteration 15700] Model Checkpoint Saved with Loss : 0.674, Acc : 95.0, BLEU : 62.541
+2022-05-03 08:54:19 | INFO | train_tsf_model.py | [Iteration 15800] SelfLoss : 0.187 CycleLoss : 0.585 StyleLoss : 0.088 ContentLoss : 0
+2022-05-03 08:54:21 | INFO | train_tsf_model.py | [Iteration 15800] Model Checkpoint Saved with Loss : 0.662, Acc : 94.9, BLEU : 62.438
+2022-05-03 08:54:51 | INFO | train_tsf_model.py | [Iteration 15900] SelfLoss : 0.161 CycleLoss : 0.577 StyleLoss : 0.108 ContentLoss : 0
+2022-05-03 08:54:55 | INFO | train_tsf_model.py | [Iteration 15900] Model Checkpoint Saved with Loss : 0.675, Acc : 94.7, BLEU : 62.314
+2022-05-03 08:55:25 | INFO | train_tsf_model.py | [Iteration 16000] SelfLoss : 0.15 CycleLoss : 0.511 StyleLoss : 0.122 ContentLoss : 0
+2022-05-03 08:55:27 | INFO | train_tsf_model.py | [Iteration 16000] Model Checkpoint Saved with Loss : 0.67, Acc : 96.0, BLEU : 61.721
+2022-05-03 08:55:57 | INFO | train_tsf_model.py | [Iteration 16100] SelfLoss : 0.167 CycleLoss : 0.542 StyleLoss : 0.088 ContentLoss : 0
+2022-05-03 08:56:01 | INFO | train_tsf_model.py | [Iteration 16100] Model Checkpoint Saved with Loss : 0.653, Acc : 95.8, BLEU : 62.297
+2022-05-03 08:56:31 | INFO | train_tsf_model.py | [Iteration 16200] SelfLoss : 0.197 CycleLoss : 0.635 StyleLoss : 0.11 ContentLoss : 0
+2022-05-03 08:56:34 | INFO | train_tsf_model.py | [Iteration 16200] Model Checkpoint Saved with Loss : 0.659, Acc : 95.7, BLEU : 62.439
+2022-05-03 08:57:04 | INFO | train_tsf_model.py | [Iteration 16300] SelfLoss : 0.175 CycleLoss : 0.585 StyleLoss : 0.093 ContentLoss : 0
+wandb: Network error (ReadTimeout), entering retry loop.
+2022-05-03 08:57:08 | INFO | train_tsf_model.py | [Iteration 16300] Model Checkpoint Saved with Loss : 0.644, Acc : 95.4, BLEU : 62.554
+2022-05-03 08:57:38 | INFO | train_tsf_model.py | [Iteration 16400] SelfLoss : 0.152 CycleLoss : 0.535 StyleLoss : 0.109 ContentLoss : 0
+2022-05-03 08:57:41 | INFO | train_tsf_model.py | [Iteration 16400] Model Checkpoint Saved with Loss : 0.644, Acc : 94.4, BLEU : 63.02
+2022-05-03 08:58:11 | INFO | train_tsf_model.py | [Iteration 16500] SelfLoss : 0.145 CycleLoss : 0.49 StyleLoss : 0.099 ContentLoss : 0
+2022-05-03 08:58:15 | INFO | train_tsf_model.py | [Iteration 16500] Model Checkpoint Saved with Loss : 0.651, Acc : 95.4, BLEU : 62.647
+2022-05-03 08:58:45 | INFO | train_tsf_model.py | [Iteration 16600] SelfLoss : 0.154 CycleLoss : 0.508 StyleLoss : 0.091 ContentLoss : 0
+2022-05-03 08:58:47 | INFO | train_tsf_model.py | [Iteration 16600] Model Checkpoint Saved with Loss : 0.664, Acc : 96.2, BLEU : 62.173
+2022-05-03 08:59:17 | INFO | train_tsf_model.py | [Iteration 16700] SelfLoss : 0.16 CycleLoss : 0.581 StyleLoss : 0.101 ContentLoss : 0
+2022-05-03 08:59:19 | INFO | train_tsf_model.py | [Iteration 16700] Model Checkpoint Saved with Loss : 0.677, Acc : 96.2, BLEU : 61.773
+2022-05-03 08:59:49 | INFO | train_tsf_model.py | [Iteration 16800] SelfLoss : 0.167 CycleLoss : 0.554 StyleLoss : 0.058 ContentLoss : 0
+2022-05-03 08:59:52 | INFO | train_tsf_model.py | [Iteration 16800] Model Checkpoint Saved with Loss : 0.649, Acc : 95.6, BLEU : 62.359
+2022-05-03 09:00:22 | INFO | train_tsf_model.py | [Iteration 16900] SelfLoss : 0.159 CycleLoss : 0.57 StyleLoss : 0.086 ContentLoss : 0
+2022-05-03 09:00:25 | INFO | train_tsf_model.py | [Iteration 16900] Model Checkpoint Saved with Loss : 0.653, Acc : 95.7, BLEU : 62.552
+2022-05-03 09:00:55 | INFO | train_tsf_model.py | [Iteration 17000] SelfLoss : 0.159 CycleLoss : 0.554 StyleLoss : 0.088 ContentLoss : 0
+2022-05-03 09:00:58 | INFO | train_tsf_model.py | [Iteration 17000] Model Checkpoint Saved with Loss : 0.637, Acc : 95.3, BLEU : 62.995
+2022-05-03 09:01:29 | INFO | train_tsf_model.py | [Iteration 17100] SelfLoss : 0.163 CycleLoss : 0.54 StyleLoss : 0.071 ContentLoss : 0
+2022-05-03 09:01:31 | INFO | train_tsf_model.py | [Iteration 17100] Model Checkpoint Saved with Loss : 0.637, Acc : 95.5, BLEU : 63.082
+2022-05-03 09:02:01 | INFO | train_tsf_model.py | [Iteration 17200] SelfLoss : 0.153 CycleLoss : 0.56 StyleLoss : 0.093 ContentLoss : 0
+2022-05-03 09:02:04 | INFO | train_tsf_model.py | [Iteration 17200] Model Checkpoint Saved with Loss : 0.643, Acc : 95.6, BLEU : 62.881
+2022-05-03 09:02:34 | INFO | train_tsf_model.py | [Iteration 17300] SelfLoss : 0.167 CycleLoss : 0.616 StyleLoss : 0.085 ContentLoss : 0
+2022-05-03 09:02:38 | INFO | train_tsf_model.py | [Iteration 17300] Model Checkpoint Saved with Loss : 0.642, Acc : 95.1, BLEU : 62.679
+2022-05-03 09:03:08 | INFO | train_tsf_model.py | [Iteration 17400] SelfLoss : 0.169 CycleLoss : 0.533 StyleLoss : 0.086 ContentLoss : 0
+2022-05-03 09:03:12 | INFO | train_tsf_model.py | [Iteration 17400] Model Checkpoint Saved with Loss : 0.639, Acc : 95.2, BLEU : 62.427
+2022-05-03 09:03:42 | INFO | train_tsf_model.py | [Iteration 17500] SelfLoss : 0.142 CycleLoss : 0.495 StyleLoss : 0.086 ContentLoss : 0
+2022-05-03 09:03:45 | INFO | train_tsf_model.py | [Iteration 17500] Model Checkpoint Saved with Loss : 0.63, Acc : 94.9, BLEU : 63.01
+2022-05-03 09:04:15 | INFO | train_tsf_model.py | [Iteration 17600] SelfLoss : 0.155 CycleLoss : 0.486 StyleLoss : 0.052 ContentLoss : 0
+2022-05-03 09:04:19 | INFO | train_tsf_model.py | [Iteration 17600] Model Checkpoint Saved with Loss : 0.63, Acc : 95.1, BLEU : 62.948
+2022-05-03 09:04:49 | INFO | train_tsf_model.py | [Iteration 17700] SelfLoss : 0.142 CycleLoss : 0.531 StyleLoss : 0.116 ContentLoss : 0
+2022-05-03 09:04:52 | INFO | train_tsf_model.py | [Iteration 17700] Model Checkpoint Saved with Loss : 0.62, Acc : 95.2, BLEU : 63.141
+2022-05-03 09:05:22 | INFO | train_tsf_model.py | [Iteration 17800] SelfLoss : 0.153 CycleLoss : 0.533 StyleLoss : 0.106 ContentLoss : 0
+2022-05-03 09:05:25 | INFO | train_tsf_model.py | [Iteration 17800] Model Checkpoint Saved with Loss : 0.637, Acc : 95.0, BLEU : 63.081
+2022-05-03 09:05:55 | INFO | train_tsf_model.py | [Iteration 17900] SelfLoss : 0.152 CycleLoss : 0.525 StyleLoss : 0.083 ContentLoss : 0
+2022-05-03 09:05:58 | INFO | train_tsf_model.py | [Iteration 17900] Model Checkpoint Saved with Loss : 0.625, Acc : 95.6, BLEU : 63.466
+2022-05-03 09:06:28 | INFO | train_tsf_model.py | [Iteration 18000] SelfLoss : 0.142 CycleLoss : 0.481 StyleLoss : 0.109 ContentLoss : 0
+2022-05-03 09:06:31 | INFO | train_tsf_model.py | [Iteration 18000] Model Checkpoint Saved with Loss : 0.608, Acc : 95.6, BLEU : 63.474
+2022-05-03 09:07:01 | INFO | train_tsf_model.py | [Iteration 18100] SelfLoss : 0.177 CycleLoss : 0.548 StyleLoss : 0.115 ContentLoss : 0
+2022-05-03 09:07:05 | INFO | train_tsf_model.py | [Iteration 18100] Model Checkpoint Saved with Loss : 0.615, Acc : 95.7, BLEU : 63.146
+2022-05-03 09:07:35 | INFO | train_tsf_model.py | [Iteration 18200] SelfLoss : 0.136 CycleLoss : 0.48 StyleLoss : 0.104 ContentLoss : 0
+2022-05-03 09:07:38 | INFO | train_tsf_model.py | [Iteration 18200] Model Checkpoint Saved with Loss : 0.604, Acc : 94.8, BLEU : 63.406
+2022-05-03 09:08:07 | INFO | train_tsf_model.py | [Iteration 18300] SelfLoss : 0.14 CycleLoss : 0.491 StyleLoss : 0.082 ContentLoss : 0
+2022-05-03 09:08:10 | INFO | train_tsf_model.py | [Iteration 18300] Model Checkpoint Saved with Loss : 0.619, Acc : 95.2, BLEU : 62.97
+2022-05-03 09:08:40 | INFO | train_tsf_model.py | [Iteration 18400] SelfLoss : 0.146 CycleLoss : 0.561 StyleLoss : 0.113 ContentLoss : 0
+2022-05-03 09:08:43 | INFO | train_tsf_model.py | [Iteration 18400] Model Checkpoint Saved with Loss : 0.615, Acc : 96.4, BLEU : 62.726
+2022-05-03 09:09:12 | INFO | train_tsf_model.py | [Iteration 18500] SelfLoss : 0.129 CycleLoss : 0.491 StyleLoss : 0.091 ContentLoss : 0
+2022-05-03 09:09:14 | INFO | train_tsf_model.py | [Iteration 18500] Model Checkpoint Saved with Loss : 0.603, Acc : 95.8, BLEU : 63.35
+2022-05-03 09:09:43 | INFO | train_tsf_model.py | [Iteration 18600] SelfLoss : 0.139 CycleLoss : 0.446 StyleLoss : 0.103 ContentLoss : 0
+2022-05-03 09:09:47 | INFO | train_tsf_model.py | [Iteration 18600] Model Checkpoint Saved with Loss : 0.608, Acc : 95.6, BLEU : 62.654
+2022-05-03 09:10:16 | INFO | train_tsf_model.py | [Iteration 18700] SelfLoss : 0.146 CycleLoss : 0.502 StyleLoss : 0.078 ContentLoss : 0
+2022-05-03 09:10:19 | INFO | train_tsf_model.py | [Iteration 18700] Model Checkpoint Saved with Loss : 0.593, Acc : 96.1, BLEU : 63.127
+2022-05-03 09:10:48 | INFO | train_tsf_model.py | [Iteration 18800] SelfLoss : 0.13 CycleLoss : 0.463 StyleLoss : 0.104 ContentLoss : 0
+2022-05-03 09:10:51 | INFO | train_tsf_model.py | [Iteration 18800] Model Checkpoint Saved with Loss : 0.605, Acc : 95.4, BLEU : 62.982
+2022-05-03 09:11:20 | INFO | train_tsf_model.py | [Iteration 18900] SelfLoss : 0.134 CycleLoss : 0.454 StyleLoss : 0.059 ContentLoss : 0
+2022-05-03 09:11:23 | INFO | train_tsf_model.py | [Iteration 18900] Model Checkpoint Saved with Loss : 0.594, Acc : 95.9, BLEU : 63.08
+2022-05-03 09:11:52 | INFO | train_tsf_model.py | [Iteration 19000] SelfLoss : 0.134 CycleLoss : 0.461 StyleLoss : 0.059 ContentLoss : 0
+2022-05-03 09:11:56 | INFO | train_tsf_model.py | [Iteration 19000] Model Checkpoint Saved with Loss : 0.589, Acc : 96.0, BLEU : 62.914
+2022-05-03 09:12:25 | INFO | train_tsf_model.py | [Iteration 19100] SelfLoss : 0.138 CycleLoss : 0.465 StyleLoss : 0.068 ContentLoss : 0
+2022-05-03 09:12:28 | INFO | train_tsf_model.py | [Iteration 19100] Model Checkpoint Saved with Loss : 0.585, Acc : 96.5, BLEU : 62.808
+2022-05-03 09:12:57 | INFO | train_tsf_model.py | [Iteration 19200] SelfLoss : 0.126 CycleLoss : 0.467 StyleLoss : 0.104 ContentLoss : 0
+2022-05-03 09:13:00 | INFO | train_tsf_model.py | [Iteration 19200] Model Checkpoint Saved with Loss : 0.588, Acc : 96.3, BLEU : 63.701
+2022-05-03 09:13:30 | INFO | train_tsf_model.py | [Iteration 19300] SelfLoss : 0.157 CycleLoss : 0.555 StyleLoss : 0.076 ContentLoss : 0
+2022-05-03 09:13:33 | INFO | train_tsf_model.py | [Iteration 19300] Model Checkpoint Saved with Loss : 0.68, Acc : 96.4, BLEU : 63.524
+2022-05-03 09:14:03 | INFO | train_tsf_model.py | [Iteration 19400] SelfLoss : 0.13 CycleLoss : 0.431 StyleLoss : 0.078 ContentLoss : 0
+2022-05-03 09:14:05 | INFO | train_tsf_model.py | [Iteration 19400] Model Checkpoint Saved with Loss : 0.597, Acc : 96.0, BLEU : 63.175
+2022-05-03 09:14:36 | INFO | train_tsf_model.py | [Iteration 19500] SelfLoss : 0.151 CycleLoss : 0.502 StyleLoss : 0.081 ContentLoss : 0
+2022-05-03 09:14:38 | INFO | train_tsf_model.py | [Iteration 19500] Model Checkpoint Saved with Loss : 0.583, Acc : 95.8, BLEU : 63.415
+2022-05-03 09:15:09 | INFO | train_tsf_model.py | [Iteration 19600] SelfLoss : 0.148 CycleLoss : 0.46 StyleLoss : 0.079 ContentLoss : 0
+2022-05-03 09:15:11 | INFO | train_tsf_model.py | [Iteration 19600] Model Checkpoint Saved with Loss : 0.579, Acc : 95.4, BLEU : 63.416
+2022-05-03 09:15:41 | INFO | train_tsf_model.py | [Iteration 19700] SelfLoss : 0.138 CycleLoss : 0.472 StyleLoss : 0.067 ContentLoss : 0
+2022-05-03 09:15:44 | INFO | train_tsf_model.py | [Iteration 19700] Model Checkpoint Saved with Loss : 0.578, Acc : 96.4, BLEU : 63.176
+2022-05-03 09:16:14 | INFO | train_tsf_model.py | [Iteration 19800] SelfLoss : 0.142 CycleLoss : 0.48 StyleLoss : 0.114 ContentLoss : 0
+2022-05-03 09:16:17 | INFO | train_tsf_model.py | [Iteration 19800] Model Checkpoint Saved with Loss : 0.601, Acc : 95.8, BLEU : 63.529
+2022-05-03 09:16:47 | INFO | train_tsf_model.py | [Iteration 19900] SelfLoss : 0.128 CycleLoss : 0.478 StyleLoss : 0.057 ContentLoss : 0
+2022-05-03 09:16:51 | INFO | train_tsf_model.py | [Iteration 19900] Model Checkpoint Saved with Loss : 0.58, Acc : 96.4, BLEU : 63.642
+2022-05-03 09:17:21 | INFO | train_tsf_model.py | [Iteration 20000] SelfLoss : 0.145 CycleLoss : 0.518 StyleLoss : 0.091 ContentLoss : 0
+2022-05-03 09:17:24 | INFO | train_tsf_model.py | [Iteration 20000] Model Checkpoint Saved with Loss : 0.621, Acc : 95.7, BLEU : 63.614
+2022-05-03 09:17:54 | INFO | train_tsf_model.py | [Iteration 20100] SelfLoss : 0.144 CycleLoss : 0.49 StyleLoss : 0.107 ContentLoss : 0
+2022-05-03 09:17:57 | INFO | train_tsf_model.py | [Iteration 20100] Model Checkpoint Saved with Loss : 0.589, Acc : 96.4, BLEU : 63.573
+2022-05-03 09:18:26 | INFO | train_tsf_model.py | [Iteration 20200] SelfLoss : 0.123 CycleLoss : 0.427 StyleLoss : 0.047 ContentLoss : 0
+2022-05-03 09:18:29 | INFO | train_tsf_model.py | [Iteration 20200] Model Checkpoint Saved with Loss : 0.581, Acc : 96.5, BLEU : 63.453
+2022-05-03 09:18:59 | INFO | train_tsf_model.py | [Iteration 20300] SelfLoss : 0.117 CycleLoss : 0.425 StyleLoss : 0.117 ContentLoss : 0
+2022-05-03 09:19:03 | INFO | train_tsf_model.py | [Iteration 20300] Model Checkpoint Saved with Loss : 0.572, Acc : 96.8, BLEU : 63.337
+2022-05-03 09:19:33 | INFO | train_tsf_model.py | [Iteration 20400] SelfLoss : 0.119 CycleLoss : 0.443 StyleLoss : 0.086 ContentLoss : 0
+2022-05-03 09:19:36 | INFO | train_tsf_model.py | [Iteration 20400] Model Checkpoint Saved with Loss : 0.566, Acc : 96.3, BLEU : 63.668
+2022-05-03 09:20:06 | INFO | train_tsf_model.py | [Iteration 20500] SelfLoss : 0.122 CycleLoss : 0.424 StyleLoss : 0.061 ContentLoss : 0
+2022-05-03 09:20:09 | INFO | train_tsf_model.py | [Iteration 20500] Model Checkpoint Saved with Loss : 0.564, Acc : 95.7, BLEU : 63.374
+2022-05-03 09:20:39 | INFO | train_tsf_model.py | [Iteration 20600] SelfLoss : 0.116 CycleLoss : 0.421 StyleLoss : 0.083 ContentLoss : 0
+2022-05-03 09:20:42 | INFO | train_tsf_model.py | [Iteration 20600] Model Checkpoint Saved with Loss : 0.551, Acc : 96.0, BLEU : 63.891
+2022-05-03 09:21:12 | INFO | train_tsf_model.py | [Iteration 20700] SelfLoss : 0.114 CycleLoss : 0.438 StyleLoss : 0.052 ContentLoss : 0
+2022-05-03 09:21:16 | INFO | train_tsf_model.py | [Iteration 20700] Model Checkpoint Saved with Loss : 0.562, Acc : 96.4, BLEU : 63.485
+2022-05-03 09:21:46 | INFO | train_tsf_model.py | [Iteration 20800] SelfLoss : 0.123 CycleLoss : 0.411 StyleLoss : 0.057 ContentLoss : 0
+2022-05-03 09:21:49 | INFO | train_tsf_model.py | [Iteration 20800] Model Checkpoint Saved with Loss : 0.563, Acc : 96.4, BLEU : 63.159
+2022-05-03 09:22:19 | INFO | train_tsf_model.py | [Iteration 20900] SelfLoss : 0.107 CycleLoss : 0.415 StyleLoss : 0.067 ContentLoss : 0
+2022-05-03 09:22:22 | INFO | train_tsf_model.py | [Iteration 20900] Model Checkpoint Saved with Loss : 0.56, Acc : 96.2, BLEU : 63.546
+2022-05-03 09:22:52 | INFO | train_tsf_model.py | [Iteration 21000] SelfLoss : 0.116 CycleLoss : 0.426 StyleLoss : 0.069 ContentLoss : 0
+2022-05-03 09:22:55 | INFO | train_tsf_model.py | [Iteration 21000] Model Checkpoint Saved with Loss : 0.56, Acc : 96.9, BLEU : 63.322
+2022-05-03 09:23:25 | INFO | train_tsf_model.py | [Iteration 21100] SelfLoss : 0.098 CycleLoss : 0.388 StyleLoss : 0.138 ContentLoss : 0
+2022-05-03 09:23:28 | INFO | train_tsf_model.py | [Iteration 21100] Model Checkpoint Saved with Loss : 0.564, Acc : 95.0, BLEU : 64.361
+2022-05-03 09:23:57 | INFO | train_tsf_model.py | [Iteration 21200] SelfLoss : 0.102 CycleLoss : 0.385 StyleLoss : 0.072 ContentLoss : 0
+2022-05-03 09:24:01 | INFO | train_tsf_model.py | [Iteration 21200] Model Checkpoint Saved with Loss : 0.544, Acc : 96.0, BLEU : 63.773
+2022-05-03 09:24:31 | INFO | train_tsf_model.py | [Iteration 21300] SelfLoss : 0.128 CycleLoss : 0.423 StyleLoss : 0.081 ContentLoss : 0
+2022-05-03 09:24:34 | INFO | train_tsf_model.py | [Iteration 21300] Model Checkpoint Saved with Loss : 0.538, Acc : 96.0, BLEU : 63.986
+2022-05-03 09:25:03 | INFO | train_tsf_model.py | [Iteration 21400] SelfLoss : 0.114 CycleLoss : 0.436 StyleLoss : 0.068 ContentLoss : 0
+2022-05-03 09:25:06 | INFO | train_tsf_model.py | [Iteration 21400] Model Checkpoint Saved with Loss : 0.535, Acc : 96.7, BLEU : 63.516
+2022-05-03 09:25:36 | INFO | train_tsf_model.py | [Iteration 21500] SelfLoss : 0.12 CycleLoss : 0.408 StyleLoss : 0.115 ContentLoss : 0
+2022-05-03 09:25:40 | INFO | train_tsf_model.py | [Iteration 21500] Model Checkpoint Saved with Loss : 0.553, Acc : 96.4, BLEU : 63.586
+2022-05-03 09:26:10 | INFO | train_tsf_model.py | [Iteration 21600] SelfLoss : 0.109 CycleLoss : 0.404 StyleLoss : 0.076 ContentLoss : 0
+2022-05-03 09:26:13 | INFO | train_tsf_model.py | [Iteration 21600] Model Checkpoint Saved with Loss : 0.522, Acc : 96.2, BLEU : 64.081
+2022-05-03 09:26:44 | INFO | train_tsf_model.py | [Iteration 21700] SelfLoss : 0.099 CycleLoss : 0.383 StyleLoss : 0.08 ContentLoss : 0
+2022-05-03 09:26:47 | INFO | train_tsf_model.py | [Iteration 21700] Model Checkpoint Saved with Loss : 0.531, Acc : 96.6, BLEU : 63.247
+2022-05-03 09:27:17 | INFO | train_tsf_model.py | [Iteration 21800] SelfLoss : 0.124 CycleLoss : 0.405 StyleLoss : 0.12 ContentLoss : 0
+2022-05-03 09:27:19 | INFO | train_tsf_model.py | [Iteration 21800] Model Checkpoint Saved with Loss : 0.541, Acc : 97.0, BLEU : 63.46
+2022-05-03 09:27:49 | INFO | train_tsf_model.py | [Iteration 21900] SelfLoss : 0.111 CycleLoss : 0.37 StyleLoss : 0.088 ContentLoss : 0
+2022-05-03 09:27:52 | INFO | train_tsf_model.py | [Iteration 21900] Model Checkpoint Saved with Loss : 0.53, Acc : 95.9, BLEU : 63.444
+2022-05-03 09:28:22 | INFO | train_tsf_model.py | [Iteration 22000] SelfLoss : 0.101 CycleLoss : 0.384 StyleLoss : 0.088 ContentLoss : 0
+2022-05-03 09:28:25 | INFO | train_tsf_model.py | [Iteration 22000] Model Checkpoint Saved with Loss : 0.514, Acc : 96.4, BLEU : 64.44
+2022-05-03 09:28:56 | INFO | train_tsf_model.py | [Iteration 22100] SelfLoss : 0.111 CycleLoss : 0.39 StyleLoss : 0.064 ContentLoss : 0
+2022-05-03 09:28:59 | INFO | train_tsf_model.py | [Iteration 22100] Model Checkpoint Saved with Loss : 0.544, Acc : 95.8, BLEU : 63.888
+2022-05-03 09:29:29 | INFO | train_tsf_model.py | [Iteration 22200] SelfLoss : 0.116 CycleLoss : 0.407 StyleLoss : 0.065 ContentLoss : 0
+2022-05-03 09:29:31 | INFO | train_tsf_model.py | [Iteration 22200] Model Checkpoint Saved with Loss : 0.545, Acc : 95.6, BLEU : 63.776
+2022-05-03 09:30:01 | INFO | train_tsf_model.py | [Iteration 22300] SelfLoss : 0.098 CycleLoss : 0.375 StyleLoss : 0.065 ContentLoss : 0
+2022-05-03 09:30:04 | INFO | train_tsf_model.py | [Iteration 22300] Model Checkpoint Saved with Loss : 0.521, Acc : 96.9, BLEU : 63.866
+2022-05-03 09:30:35 | INFO | train_tsf_model.py | [Iteration 22400] SelfLoss : 0.131 CycleLoss : 0.441 StyleLoss : 0.089 ContentLoss : 0
+2022-05-03 09:30:37 | INFO | train_tsf_model.py | [Iteration 22400] Model Checkpoint Saved with Loss : 0.52, Acc : 96.3, BLEU : 63.982
+2022-05-03 09:31:08 | INFO | train_tsf_model.py | [Iteration 22500] SelfLoss : 0.099 CycleLoss : 0.434 StyleLoss : 0.091 ContentLoss : 0
+2022-05-03 09:31:10 | INFO | train_tsf_model.py | [Iteration 22500] Model Checkpoint Saved with Loss : 0.525, Acc : 95.6, BLEU : 63.736
+2022-05-03 09:31:41 | INFO | train_tsf_model.py | [Iteration 22600] SelfLoss : 0.116 CycleLoss : 0.403 StyleLoss : 0.083 ContentLoss : 0
+2022-05-03 09:31:44 | INFO | train_tsf_model.py | [Iteration 22600] Model Checkpoint Saved with Loss : 0.543, Acc : 95.9, BLEU : 64.059
+2022-05-03 09:32:14 | INFO | train_tsf_model.py | [Iteration 22700] SelfLoss : 0.103 CycleLoss : 0.385 StyleLoss : 0.087 ContentLoss : 0
+2022-05-03 09:32:17 | INFO | train_tsf_model.py | [Iteration 22700] Model Checkpoint Saved with Loss : 0.525, Acc : 96.4, BLEU : 63.755
+2022-05-03 09:32:48 | INFO | train_tsf_model.py | [Iteration 22800] SelfLoss : 0.108 CycleLoss : 0.376 StyleLoss : 0.086 ContentLoss : 0
+2022-05-03 09:32:53 | INFO | train_tsf_model.py | [Iteration 22800] Model Checkpoint Saved with Loss : 0.524, Acc : 96.5, BLEU : 63.408
+2022-05-03 09:33:23 | INFO | train_tsf_model.py | [Iteration 22900] SelfLoss : 0.104 CycleLoss : 0.405 StyleLoss : 0.07 ContentLoss : 0
+2022-05-03 09:33:26 | INFO | train_tsf_model.py | [Iteration 22900] Model Checkpoint Saved with Loss : 0.534, Acc : 96.1, BLEU : 63.731
+2022-05-03 09:33:56 | INFO | train_tsf_model.py | [Iteration 23000] SelfLoss : 0.115 CycleLoss : 0.397 StyleLoss : 0.107 ContentLoss : 0
+2022-05-03 09:33:59 | INFO | train_tsf_model.py | [Iteration 23000] Model Checkpoint Saved with Loss : 0.538, Acc : 96.4, BLEU : 63.488
+2022-05-03 09:34:29 | INFO | train_tsf_model.py | [Iteration 23100] SelfLoss : 0.103 CycleLoss : 0.374 StyleLoss : 0.108 ContentLoss : 0
+2022-05-03 09:34:33 | INFO | train_tsf_model.py | [Iteration 23100] Model Checkpoint Saved with Loss : 0.522, Acc : 96.0, BLEU : 63.63
+2022-05-03 09:35:04 | INFO | train_tsf_model.py | [Iteration 23200] SelfLoss : 0.093 CycleLoss : 0.379 StyleLoss : 0.044 ContentLoss : 0
+2022-05-03 09:35:07 | INFO | train_tsf_model.py | [Iteration 23200] Model Checkpoint Saved with Loss : 0.515, Acc : 96.7, BLEU : 64.107
+2022-05-03 09:35:39 | INFO | train_tsf_model.py | [Iteration 23300] SelfLoss : 0.119 CycleLoss : 0.412 StyleLoss : 0.079 ContentLoss : 0
+2022-05-03 09:35:42 | INFO | train_tsf_model.py | [Iteration 23300] Model Checkpoint Saved with Loss : 0.522, Acc : 96.5, BLEU : 63.568
+2022-05-03 09:36:13 | INFO | train_tsf_model.py | [Iteration 23400] SelfLoss : 0.131 CycleLoss : 0.426 StyleLoss : 0.055 ContentLoss : 0
+2022-05-03 09:36:16 | INFO | train_tsf_model.py | [Iteration 23400] Model Checkpoint Saved with Loss : 0.524, Acc : 96.6, BLEU : 63.026
+2022-05-03 09:36:46 | INFO | train_tsf_model.py | [Iteration 23500] SelfLoss : 0.106 CycleLoss : 0.388 StyleLoss : 0.098 ContentLoss : 0
+2022-05-03 09:36:49 | INFO | train_tsf_model.py | [Iteration 23500] Model Checkpoint Saved with Loss : 0.51, Acc : 96.8, BLEU : 64.059
+2022-05-03 09:37:19 | INFO | train_tsf_model.py | [Iteration 23600] SelfLoss : 0.095 CycleLoss : 0.359 StyleLoss : 0.067 ContentLoss : 0
+2022-05-03 09:37:22 | INFO | train_tsf_model.py | [Iteration 23600] Model Checkpoint Saved with Loss : 0.516, Acc : 96.4, BLEU : 64.119
+2022-05-03 09:37:53 | INFO | train_tsf_model.py | [Iteration 23700] SelfLoss : 0.093 CycleLoss : 0.397 StyleLoss : 0.055 ContentLoss : 0
+2022-05-03 09:37:55 | INFO | train_tsf_model.py | [Iteration 23700] Model Checkpoint Saved with Loss : 0.511, Acc : 96.6, BLEU : 63.643
+2022-05-03 09:38:26 | INFO | train_tsf_model.py | [Iteration 23800] SelfLoss : 0.091 CycleLoss : 0.389 StyleLoss : 0.116 ContentLoss : 0
+2022-05-03 09:38:29 | INFO | train_tsf_model.py | [Iteration 23800] Model Checkpoint Saved with Loss : 0.529, Acc : 95.9, BLEU : 63.829
+2022-05-03 09:39:00 | INFO | train_tsf_model.py | [Iteration 23900] SelfLoss : 0.145 CycleLoss : 0.549 StyleLoss : 0.128 ContentLoss : 0
+2022-05-03 09:39:03 | INFO | train_tsf_model.py | [Iteration 23900] Model Checkpoint Saved with Loss : 0.562, Acc : 96.2, BLEU : 64.067
+2022-05-03 09:39:33 | INFO | train_tsf_model.py | [Iteration 24000] SelfLoss : 0.12 CycleLoss : 0.426 StyleLoss : 0.066 ContentLoss : 0
+2022-05-03 09:39:36 | INFO | train_tsf_model.py | [Iteration 24000] Model Checkpoint Saved with Loss : 0.524, Acc : 96.9, BLEU : 63.785
+2022-05-03 09:40:06 | INFO | train_tsf_model.py | [Iteration 24100] SelfLoss : 0.104 CycleLoss : 0.407 StyleLoss : 0.044 ContentLoss : 0
+2022-05-03 09:40:09 | INFO | train_tsf_model.py | [Iteration 24100] Model Checkpoint Saved with Loss : 0.519, Acc : 96.9, BLEU : 63.944
+2022-05-03 09:40:38 | INFO | train_tsf_model.py | [Iteration 24200] SelfLoss : 0.09 CycleLoss : 0.356 StyleLoss : 0.049 ContentLoss : 0
+2022-05-03 09:40:41 | INFO | train_tsf_model.py | [Iteration 24200] Model Checkpoint Saved with Loss : 0.514, Acc : 97.2, BLEU : 63.677
+2022-05-03 09:41:11 | INFO | train_tsf_model.py | [Iteration 24300] SelfLoss : 0.088 CycleLoss : 0.336 StyleLoss : 0.1 ContentLoss : 0
+2022-05-03 09:41:14 | INFO | train_tsf_model.py | [Iteration 24300] Model Checkpoint Saved with Loss : 0.513, Acc : 97.4, BLEU : 63.779
+2022-05-03 09:41:44 | INFO | train_tsf_model.py | [Iteration 24400] SelfLoss : 0.09 CycleLoss : 0.358 StyleLoss : 0.076 ContentLoss : 0
+2022-05-03 09:41:47 | INFO | train_tsf_model.py | [Iteration 24400] Model Checkpoint Saved with Loss : 0.51, Acc : 97.5, BLEU : 63.517
+2022-05-03 09:42:17 | INFO | train_tsf_model.py | [Iteration 24500] SelfLoss : 0.091 CycleLoss : 0.362 StyleLoss : 0.061 ContentLoss : 0
+2022-05-03 09:42:21 | INFO | train_tsf_model.py | [Iteration 24500] Model Checkpoint Saved with Loss : 0.505, Acc : 96.8, BLEU : 63.712
+2022-05-03 09:42:51 | INFO | train_tsf_model.py | [Iteration 24600] SelfLoss : 0.089 CycleLoss : 0.352 StyleLoss : 0.081 ContentLoss : 0
+2022-05-03 09:42:54 | INFO | train_tsf_model.py | [Iteration 24600] Model Checkpoint Saved with Loss : 0.502, Acc : 97.4, BLEU : 63.789
+2022-05-03 09:43:25 | INFO | train_tsf_model.py | [Iteration 24700] SelfLoss : 0.104 CycleLoss : 0.393 StyleLoss : 0.052 ContentLoss : 0
+2022-05-03 09:43:28 | INFO | train_tsf_model.py | [Iteration 24700] Model Checkpoint Saved with Loss : 0.514, Acc : 96.9, BLEU : 63.598
+2022-05-03 09:43:59 | INFO | train_tsf_model.py | [Iteration 24800] SelfLoss : 0.095 CycleLoss : 0.329 StyleLoss : 0.07 ContentLoss : 0
+2022-05-03 09:44:02 | INFO | train_tsf_model.py | [Iteration 24800] Model Checkpoint Saved with Loss : 0.503, Acc : 96.5, BLEU : 63.766
+2022-05-03 09:44:32 | INFO | train_tsf_model.py | [Iteration 24900] SelfLoss : 0.104 CycleLoss : 0.373 StyleLoss : 0.05 ContentLoss : 0
+2022-05-03 09:44:35 | INFO | train_tsf_model.py | [Iteration 24900] Model Checkpoint Saved with Loss : 0.509, Acc : 96.6, BLEU : 63.835
+2022-05-03 09:45:06 | INFO | train_tsf_model.py | [Iteration 25000] SelfLoss : 0.086 CycleLoss : 0.376 StyleLoss : 0.054 ContentLoss : 0
+2022-05-03 09:45:10 | INFO | train_tsf_model.py | [Iteration 25000] Model Checkpoint Saved with Loss : 0.493, Acc : 96.6, BLEU : 64.317
+2022-05-03 09:45:40 | INFO | train_tsf_model.py | [Iteration 25100] SelfLoss : 0.083 CycleLoss : 0.342 StyleLoss : 0.099 ContentLoss : 0
+2022-05-03 09:45:43 | INFO | train_tsf_model.py | [Iteration 25100] Model Checkpoint Saved with Loss : 0.493, Acc : 96.7, BLEU : 63.86
+2022-05-03 09:46:14 | INFO | train_tsf_model.py | [Iteration 25200] SelfLoss : 0.096 CycleLoss : 0.337 StyleLoss : 0.068 ContentLoss : 0
+2022-05-03 09:46:16 | INFO | train_tsf_model.py | [Iteration 25200] Model Checkpoint Saved with Loss : 0.517, Acc : 97.3, BLEU : 63.464
+2022-05-03 09:46:47 | INFO | train_tsf_model.py | [Iteration 25300] SelfLoss : 0.087 CycleLoss : 0.337 StyleLoss : 0.089 ContentLoss : 0
+2022-05-03 09:46:50 | INFO | train_tsf_model.py | [Iteration 25300] Model Checkpoint Saved with Loss : 0.508, Acc : 97.6, BLEU : 63.229
+2022-05-03 09:47:21 | INFO | train_tsf_model.py | [Iteration 25400] SelfLoss : 0.093 CycleLoss : 0.339 StyleLoss : 0.101 ContentLoss : 0
+2022-05-03 09:47:24 | INFO | train_tsf_model.py | [Iteration 25400] Model Checkpoint Saved with Loss : 0.507, Acc : 96.5, BLEU : 63.25
+2022-05-03 09:47:54 | INFO | train_tsf_model.py | [Iteration 25500] SelfLoss : 0.097 CycleLoss : 0.377 StyleLoss : 0.09 ContentLoss : 0
+2022-05-03 09:47:57 | INFO | train_tsf_model.py | [Iteration 25500] Model Checkpoint Saved with Loss : 0.516, Acc : 96.7, BLEU : 63.59
+2022-05-03 09:48:28 | INFO | train_tsf_model.py | [Iteration 25600] SelfLoss : 0.094 CycleLoss : 0.376 StyleLoss : 0.075 ContentLoss : 0
+2022-05-03 09:48:30 | INFO | train_tsf_model.py | [Iteration 25600] Model Checkpoint Saved with Loss : 0.502, Acc : 96.7, BLEU : 63.727
+2022-05-03 09:49:01 | INFO | train_tsf_model.py | [Iteration 25700] SelfLoss : 0.094 CycleLoss : 0.362 StyleLoss : 0.111 ContentLoss : 0
+2022-05-03 09:49:04 | INFO | train_tsf_model.py | [Iteration 25700] Model Checkpoint Saved with Loss : 0.503, Acc : 96.8, BLEU : 63.626
+2022-05-03 09:49:35 | INFO | train_tsf_model.py | [Iteration 25800] SelfLoss : 0.086 CycleLoss : 0.375 StyleLoss : 0.072 ContentLoss : 0
+2022-05-03 09:49:38 | INFO | train_tsf_model.py | [Iteration 25800] Model Checkpoint Saved with Loss : 0.502, Acc : 96.6, BLEU : 63.664
+2022-05-03 09:50:09 | INFO | train_tsf_model.py | [Iteration 25900] SelfLoss : 0.082 CycleLoss : 0.333 StyleLoss : 0.046 ContentLoss : 0
+2022-05-03 09:50:12 | INFO | train_tsf_model.py | [Iteration 25900] Model Checkpoint Saved with Loss : 0.481, Acc : 96.9, BLEU : 63.792
+2022-05-03 09:50:44 | INFO | train_tsf_model.py | [Iteration 26000] SelfLoss : 0.072 CycleLoss : 0.331 StyleLoss : 0.103 ContentLoss : 0
+2022-05-03 09:50:47 | INFO | train_tsf_model.py | [Iteration 26000] Model Checkpoint Saved with Loss : 0.492, Acc : 96.8, BLEU : 63.601
+2022-05-03 09:51:18 | INFO | train_tsf_model.py | [Iteration 26100] SelfLoss : 0.085 CycleLoss : 0.335 StyleLoss : 0.056 ContentLoss : 0
+2022-05-03 09:51:21 | INFO | train_tsf_model.py | [Iteration 26100] Model Checkpoint Saved with Loss : 0.496, Acc : 96.7, BLEU : 63.619
+2022-05-03 09:51:52 | INFO | train_tsf_model.py | [Iteration 26200] SelfLoss : 0.117 CycleLoss : 0.446 StyleLoss : 0.252 ContentLoss : 0
+2022-05-03 09:51:54 | INFO | train_tsf_model.py | [Iteration 26200] Model Checkpoint Saved with Loss : 0.553, Acc : 93.3, BLEU : 65.524
+2022-05-03 09:52:25 | INFO | train_tsf_model.py | [Iteration 26300] SelfLoss : 0.101 CycleLoss : 0.387 StyleLoss : 0.103 ContentLoss : 0
+2022-05-03 09:52:27 | INFO | train_tsf_model.py | [Iteration 26300] Model Checkpoint Saved with Loss : 0.507, Acc : 96.9, BLEU : 63.802
+2022-05-03 09:52:58 | INFO | train_tsf_model.py | [Iteration 26400] SelfLoss : 0.11 CycleLoss : 0.496 StyleLoss : 0.125 ContentLoss : 0
+2022-05-03 09:53:01 | INFO | train_tsf_model.py | [Iteration 26400] Model Checkpoint Saved with Loss : 0.595, Acc : 95.9, BLEU : 63.81
+2022-05-03 09:53:31 | INFO | train_tsf_model.py | [Iteration 26500] SelfLoss : 0.104 CycleLoss : 0.398 StyleLoss : 0.086 ContentLoss : 0
+2022-05-03 09:53:34 | INFO | train_tsf_model.py | [Iteration 26500] Model Checkpoint Saved with Loss : 0.546, Acc : 96.8, BLEU : 63.402
+2022-05-03 09:54:05 | INFO | train_tsf_model.py | [Iteration 26600] SelfLoss : 0.121 CycleLoss : 0.385 StyleLoss : 0.081 ContentLoss : 0
+2022-05-03 09:54:08 | INFO | train_tsf_model.py | [Iteration 26600] Model Checkpoint Saved with Loss : 0.521, Acc : 96.8, BLEU : 63.656
+2022-05-03 09:54:39 | INFO | train_tsf_model.py | [Iteration 26700] SelfLoss : 0.101 CycleLoss : 0.383 StyleLoss : 0.083 ContentLoss : 0
+2022-05-03 09:54:42 | INFO | train_tsf_model.py | [Iteration 26700] Model Checkpoint Saved with Loss : 0.512, Acc : 96.4, BLEU : 63.177
+2022-05-03 09:55:13 | INFO | train_tsf_model.py | [Iteration 26800] SelfLoss : 0.09 CycleLoss : 0.338 StyleLoss : 0.102 ContentLoss : 0
+2022-05-03 09:55:16 | INFO | train_tsf_model.py | [Iteration 26800] Model Checkpoint Saved with Loss : 0.51, Acc : 96.5, BLEU : 63.78
+2022-05-03 09:55:47 | INFO | train_tsf_model.py | [Iteration 26900] SelfLoss : 0.08 CycleLoss : 0.316 StyleLoss : 0.113 ContentLoss : 0
+2022-05-03 09:55:49 | INFO | train_tsf_model.py | [Iteration 26900] Model Checkpoint Saved with Loss : 0.495, Acc : 95.9, BLEU : 64.297
+2022-05-03 09:56:20 | INFO | train_tsf_model.py | [Iteration 27000] SelfLoss : 0.102 CycleLoss : 0.368 StyleLoss : 0.107 ContentLoss : 0
+2022-05-03 09:56:23 | INFO | train_tsf_model.py | [Iteration 27000] Model Checkpoint Saved with Loss : 0.49, Acc : 96.7, BLEU : 64.463
+2022-05-03 09:56:53 | INFO | train_tsf_model.py | [Iteration 27100] SelfLoss : 0.104 CycleLoss : 0.361 StyleLoss : 0.085 ContentLoss : 0
+2022-05-03 09:56:56 | INFO | train_tsf_model.py | [Iteration 27100] Model Checkpoint Saved with Loss : 0.508, Acc : 96.8, BLEU : 63.632
+2022-05-03 09:57:27 | INFO | train_tsf_model.py | [Iteration 27200] SelfLoss : 0.081 CycleLoss : 0.341 StyleLoss : 0.061 ContentLoss : 0
+2022-05-03 09:57:29 | INFO | train_tsf_model.py | [Iteration 27200] Model Checkpoint Saved with Loss : 0.503, Acc : 96.6, BLEU : 63.676
+2022-05-03 09:57:59 | INFO | train_tsf_model.py | [Iteration 27300] SelfLoss : 0.084 CycleLoss : 0.334 StyleLoss : 0.112 ContentLoss : 0
+2022-05-03 09:58:02 | INFO | train_tsf_model.py | [Iteration 27300] Model Checkpoint Saved with Loss : 0.497, Acc : 96.8, BLEU : 64.108
+2022-05-03 09:58:32 | INFO | train_tsf_model.py | [Iteration 27400] SelfLoss : 0.087 CycleLoss : 0.35 StyleLoss : 0.077 ContentLoss : 0
+2022-05-03 09:58:35 | INFO | train_tsf_model.py | [Iteration 27400] Model Checkpoint Saved with Loss : 0.498, Acc : 96.6, BLEU : 64.046
+2022-05-03 09:59:05 | INFO | train_tsf_model.py | [Iteration 27500] SelfLoss : 0.08 CycleLoss : 0.336 StyleLoss : 0.107 ContentLoss : 0
+2022-05-03 09:59:09 | INFO | train_tsf_model.py | [Iteration 27500] Model Checkpoint Saved with Loss : 0.487, Acc : 96.5, BLEU : 63.849
+2022-05-03 09:59:39 | INFO | train_tsf_model.py | [Iteration 27600] SelfLoss : 0.082 CycleLoss : 0.337 StyleLoss : 0.078 ContentLoss : 0
+2022-05-03 09:59:42 | INFO | train_tsf_model.py | [Iteration 27600] Model Checkpoint Saved with Loss : 0.488, Acc : 96.7, BLEU : 63.49
+2022-05-03 10:00:13 | INFO | train_tsf_model.py | [Iteration 27700] SelfLoss : 0.08 CycleLoss : 0.33 StyleLoss : 0.077 ContentLoss : 0
+2022-05-03 10:00:16 | INFO | train_tsf_model.py | [Iteration 27700] Model Checkpoint Saved with Loss : 0.477, Acc : 96.7, BLEU : 63.772
+2022-05-03 10:00:47 | INFO | train_tsf_model.py | [Iteration 27800] SelfLoss : 0.078 CycleLoss : 0.306 StyleLoss : 0.089 ContentLoss : 0
+2022-05-03 10:00:49 | INFO | train_tsf_model.py | [Iteration 27800] Model Checkpoint Saved with Loss : 0.487, Acc : 96.4, BLEU : 63.529
+2022-05-03 10:01:20 | INFO | train_tsf_model.py | [Iteration 27900] SelfLoss : 0.08 CycleLoss : 0.346 StyleLoss : 0.068 ContentLoss : 0
+2022-05-03 10:01:23 | INFO | train_tsf_model.py | [Iteration 27900] Model Checkpoint Saved with Loss : 0.481, Acc : 96.3, BLEU : 63.871
+2022-05-03 10:01:53 | INFO | train_tsf_model.py | [Iteration 28000] SelfLoss : 0.084 CycleLoss : 0.319 StyleLoss : 0.058 ContentLoss : 0
+2022-05-03 10:01:56 | INFO | train_tsf_model.py | [Iteration 28000] Model Checkpoint Saved with Loss : 0.491, Acc : 96.6, BLEU : 63.885
+2022-05-03 10:02:27 | INFO | train_tsf_model.py | [Iteration 28100] SelfLoss : 0.072 CycleLoss : 0.326 StyleLoss : 0.101 ContentLoss : 0
+2022-05-03 10:02:29 | INFO | train_tsf_model.py | [Iteration 28100] Model Checkpoint Saved with Loss : 0.491, Acc : 96.5, BLEU : 63.915
+2022-05-03 10:03:00 | INFO | train_tsf_model.py | [Iteration 28200] SelfLoss : 0.088 CycleLoss : 0.368 StyleLoss : 0.088 ContentLoss : 0
+2022-05-03 10:03:02 | INFO | train_tsf_model.py | [Iteration 28200] Model Checkpoint Saved with Loss : 0.491, Acc : 96.9, BLEU : 63.608
+2022-05-03 10:03:33 | INFO | train_tsf_model.py | [Iteration 28300] SelfLoss : 0.084 CycleLoss : 0.335 StyleLoss : 0.131 ContentLoss : 0
+2022-05-03 10:03:36 | INFO | train_tsf_model.py | [Iteration 28300] Model Checkpoint Saved with Loss : 0.478, Acc : 96.7, BLEU : 63.725
+2022-05-03 10:04:07 | INFO | train_tsf_model.py | [Iteration 28400] SelfLoss : 0.095 CycleLoss : 0.346 StyleLoss : 0.091 ContentLoss : 0
+2022-05-03 10:04:09 | INFO | train_tsf_model.py | [Iteration 28400] Model Checkpoint Saved with Loss : 0.484, Acc : 96.9, BLEU : 63.532
+2022-05-03 10:04:40 | INFO | train_tsf_model.py | [Iteration 28500] SelfLoss : 0.081 CycleLoss : 0.331 StyleLoss : 0.072 ContentLoss : 0
+2022-05-03 10:04:44 | INFO | train_tsf_model.py | [Iteration 28500] Model Checkpoint Saved with Loss : 0.477, Acc : 96.9, BLEU : 63.894
+2022-05-03 10:05:15 | INFO | train_tsf_model.py | [Iteration 28600] SelfLoss : 0.074 CycleLoss : 0.308 StyleLoss : 0.068 ContentLoss : 0
+2022-05-03 10:05:18 | INFO | train_tsf_model.py | [Iteration 28600] Model Checkpoint Saved with Loss : 0.484, Acc : 96.8, BLEU : 63.473
+2022-05-03 10:05:48 | INFO | train_tsf_model.py | [Iteration 28700] SelfLoss : 0.07 CycleLoss : 0.274 StyleLoss : 0.052 ContentLoss : 0
+2022-05-03 10:05:52 | INFO | train_tsf_model.py | [Iteration 28700] Model Checkpoint Saved with Loss : 0.483, Acc : 97.4, BLEU : 63.373
+2022-05-03 10:06:22 | INFO | train_tsf_model.py | [Iteration 28800] SelfLoss : 0.083 CycleLoss : 0.31 StyleLoss : 0.072 ContentLoss : 0
+2022-05-03 10:06:26 | INFO | train_tsf_model.py | [Iteration 28800] Model Checkpoint Saved with Loss : 0.469, Acc : 96.7, BLEU : 63.784
+2022-05-03 10:06:56 | INFO | train_tsf_model.py | [Iteration 28900] SelfLoss : 0.159 CycleLoss : 0.469 StyleLoss : 0.079 ContentLoss : 0
+2022-05-03 10:06:59 | INFO | train_tsf_model.py | [Iteration 28900] Model Checkpoint Saved with Loss : 0.572, Acc : 96.5, BLEU : 62.883
+2022-05-03 10:07:29 | INFO | train_tsf_model.py | [Iteration 29000] SelfLoss : 0.084 CycleLoss : 0.334 StyleLoss : 0.088 ContentLoss : 0
+2022-05-03 10:07:32 | INFO | train_tsf_model.py | [Iteration 29000] Model Checkpoint Saved with Loss : 0.501, Acc : 96.8, BLEU : 62.736
+2022-05-03 10:08:03 | INFO | train_tsf_model.py | [Iteration 29100] SelfLoss : 0.084 CycleLoss : 0.361 StyleLoss : 0.077 ContentLoss : 0
+2022-05-03 10:08:06 | INFO | train_tsf_model.py | [Iteration 29100] Model Checkpoint Saved with Loss : 0.484, Acc : 97.3, BLEU : 63.757
+2022-05-03 10:08:36 | INFO | train_tsf_model.py | [Iteration 29200] SelfLoss : 0.082 CycleLoss : 0.293 StyleLoss : 0.066 ContentLoss : 0
+2022-05-03 10:08:40 | INFO | train_tsf_model.py | [Iteration 29200] Model Checkpoint Saved with Loss : 0.476, Acc : 97.0, BLEU : 63.475
+2022-05-03 10:09:11 | INFO | train_tsf_model.py | [Iteration 29300] SelfLoss : 0.08 CycleLoss : 0.358 StyleLoss : 0.104 ContentLoss : 0
+2022-05-03 10:09:14 | INFO | train_tsf_model.py | [Iteration 29300] Model Checkpoint Saved with Loss : 0.474, Acc : 96.9, BLEU : 63.561
+2022-05-03 10:09:45 | INFO | train_tsf_model.py | [Iteration 29400] SelfLoss : 0.072 CycleLoss : 0.284 StyleLoss : 0.09 ContentLoss : 0
+2022-05-03 10:09:49 | INFO | train_tsf_model.py | [Iteration 29400] Model Checkpoint Saved with Loss : 0.474, Acc : 97.1, BLEU : 63.427
+2022-05-03 10:10:20 | INFO | train_tsf_model.py | [Iteration 29500] SelfLoss : 0.077 CycleLoss : 0.335 StyleLoss : 0.036 ContentLoss : 0
+2022-05-03 10:10:22 | INFO | train_tsf_model.py | [Iteration 29500] Model Checkpoint Saved with Loss : 0.474, Acc : 97.7, BLEU : 63.365
+2022-05-03 10:10:53 | INFO | train_tsf_model.py | [Iteration 29600] SelfLoss : 0.079 CycleLoss : 0.293 StyleLoss : 0.071 ContentLoss : 0
+2022-05-03 10:10:56 | INFO | train_tsf_model.py | [Iteration 29600] Model Checkpoint Saved with Loss : 0.48, Acc : 96.7, BLEU : 63.606
+2022-05-03 10:11:26 | INFO | train_tsf_model.py | [Iteration 29700] SelfLoss : 0.072 CycleLoss : 0.307 StyleLoss : 0.063 ContentLoss : 0
+2022-05-03 10:11:30 | INFO | train_tsf_model.py | [Iteration 29700] Model Checkpoint Saved with Loss : 0.468, Acc : 97.1, BLEU : 63.467
+2022-05-03 10:11:59 | INFO | train_tsf_model.py | [Iteration 29800] SelfLoss : 0.087 CycleLoss : 0.322 StyleLoss : 0.072 ContentLoss : 0
+2022-05-03 10:12:02 | INFO | train_tsf_model.py | [Iteration 29800] Model Checkpoint Saved with Loss : 0.464, Acc : 97.5, BLEU : 63.372
+2022-05-03 10:12:33 | INFO | train_tsf_model.py | [Iteration 29900] SelfLoss : 0.084 CycleLoss : 0.373 StyleLoss : 0.051 ContentLoss : 0
+2022-05-03 10:12:36 | INFO | train_tsf_model.py | [Iteration 29900] Model Checkpoint Saved with Loss : 0.458, Acc : 97.3, BLEU : 63.705
+2022-05-03 10:13:07 | INFO | train_tsf_model.py | [Iteration 30000] SelfLoss : 0.06 CycleLoss : 0.278 StyleLoss : 0.038 ContentLoss : 0
+2022-05-03 10:13:11 | INFO | train_tsf_model.py | [Iteration 30000] Model Checkpoint Saved with Loss : 0.469, Acc : 97.1, BLEU : 63.013
+2022-05-03 10:13:42 | INFO | train_tsf_model.py | [Iteration 30100] SelfLoss : 0.075 CycleLoss : 0.282 StyleLoss : 0.086 ContentLoss : 0
+2022-05-03 10:13:44 | INFO | train_tsf_model.py | [Iteration 30100] Model Checkpoint Saved with Loss : 0.455, Acc : 96.7, BLEU : 62.94
+2022-05-03 10:14:15 | INFO | train_tsf_model.py | [Iteration 30200] SelfLoss : 0.071 CycleLoss : 0.269 StyleLoss : 0.074 ContentLoss : 0
+2022-05-03 10:14:19 | INFO | train_tsf_model.py | [Iteration 30200] Model Checkpoint Saved with Loss : 0.459, Acc : 97.0, BLEU : 63.779
+2022-05-03 10:14:49 | INFO | train_tsf_model.py | [Iteration 30300] SelfLoss : 0.064 CycleLoss : 0.313 StyleLoss : 0.078 ContentLoss : 0
+2022-05-03 10:14:52 | INFO | train_tsf_model.py | [Iteration 30300] Model Checkpoint Saved with Loss : 0.458, Acc : 96.2, BLEU : 63.964
+2022-05-03 10:15:24 | INFO | train_tsf_model.py | [Iteration 30400] SelfLoss : 0.091 CycleLoss : 0.314 StyleLoss : 0.071 ContentLoss : 0
+2022-05-03 10:15:27 | INFO | train_tsf_model.py | [Iteration 30400] Model Checkpoint Saved with Loss : 0.471, Acc : 97.2, BLEU : 63.76
+2022-05-03 10:15:57 | INFO | train_tsf_model.py | [Iteration 30500] SelfLoss : 0.071 CycleLoss : 0.311 StyleLoss : 0.064 ContentLoss : 0
+2022-05-03 10:16:00 | INFO | train_tsf_model.py | [Iteration 30500] Model Checkpoint Saved with Loss : 0.472, Acc : 96.6, BLEU : 63.484
+2022-05-03 10:16:30 | INFO | train_tsf_model.py | [Iteration 30600] SelfLoss : 0.065 CycleLoss : 0.302 StyleLoss : 0.052 ContentLoss : 0
+2022-05-03 10:16:33 | INFO | train_tsf_model.py | [Iteration 30600] Model Checkpoint Saved with Loss : 0.464, Acc : 97.9, BLEU : 62.915
+2022-05-03 10:17:03 | INFO | train_tsf_model.py | [Iteration 30700] SelfLoss : 0.102 CycleLoss : 0.429 StyleLoss : 0.088 ContentLoss : 0
+2022-05-03 10:17:05 | INFO | train_tsf_model.py | [Iteration 30700] Model Checkpoint Saved with Loss : 0.522, Acc : 97.1, BLEU : 63.102
+2022-05-03 10:17:35 | INFO | train_tsf_model.py | [Iteration 30800] SelfLoss : 0.088 CycleLoss : 0.327 StyleLoss : 0.114 ContentLoss : 0
+2022-05-03 10:17:38 | INFO | train_tsf_model.py | [Iteration 30800] Model Checkpoint Saved with Loss : 0.493, Acc : 96.9, BLEU : 63.404
+2022-05-03 10:18:08 | INFO | train_tsf_model.py | [Iteration 30900] SelfLoss : 0.083 CycleLoss : 0.331 StyleLoss : 0.074 ContentLoss : 0
+2022-05-03 10:18:11 | INFO | train_tsf_model.py | [Iteration 30900] Model Checkpoint Saved with Loss : 0.483, Acc : 97.3, BLEU : 63.266
+2022-05-03 10:18:42 | INFO | train_tsf_model.py | [Iteration 31000] SelfLoss : 0.078 CycleLoss : 0.31 StyleLoss : 0.099 ContentLoss : 0
+2022-05-03 10:18:44 | INFO | train_tsf_model.py | [Iteration 31000] Model Checkpoint Saved with Loss : 0.483, Acc : 96.8, BLEU : 63.581
+2022-05-03 10:19:15 | INFO | train_tsf_model.py | [Iteration 31100] SelfLoss : 0.084 CycleLoss : 0.31 StyleLoss : 0.093 ContentLoss : 0
+2022-05-03 10:19:18 | INFO | train_tsf_model.py | [Iteration 31100] Model Checkpoint Saved with Loss : 0.472, Acc : 96.9, BLEU : 63.023
+2022-05-03 10:19:50 | INFO | train_tsf_model.py | [Iteration 31200] SelfLoss : 0.075 CycleLoss : 0.311 StyleLoss : 0.109 ContentLoss : 0
+2022-05-03 10:19:53 | INFO | train_tsf_model.py | [Iteration 31200] Model Checkpoint Saved with Loss : 0.459, Acc : 96.6, BLEU : 63.119
+2022-05-03 10:20:24 | INFO | train_tsf_model.py | [Iteration 31300] SelfLoss : 0.067 CycleLoss : 0.26 StyleLoss : 0.066 ContentLoss : 0
+2022-05-03 10:20:27 | INFO | train_tsf_model.py | [Iteration 31300] Model Checkpoint Saved with Loss : 0.469, Acc : 97.2, BLEU : 63.492
+2022-05-03 10:20:57 | INFO | train_tsf_model.py | [Iteration 31400] SelfLoss : 0.073 CycleLoss : 0.291 StyleLoss : 0.053 ContentLoss : 0
+2022-05-03 10:21:00 | INFO | train_tsf_model.py | [Iteration 31400] Model Checkpoint Saved with Loss : 0.466, Acc : 97.2, BLEU : 63.679
+2022-05-03 10:21:31 | INFO | train_tsf_model.py | [Iteration 31500] SelfLoss : 0.09 CycleLoss : 0.337 StyleLoss : 0.131 ContentLoss : 0
+2022-05-03 10:21:34 | INFO | train_tsf_model.py | [Iteration 31500] Model Checkpoint Saved with Loss : 0.494, Acc : 96.9, BLEU : 63.04
+2022-05-03 10:22:04 | INFO | train_tsf_model.py | [Iteration 31600] SelfLoss : 0.073 CycleLoss : 0.304 StyleLoss : 0.091 ContentLoss : 0
+2022-05-03 10:22:07 | INFO | train_tsf_model.py | [Iteration 31600] Model Checkpoint Saved with Loss : 0.471, Acc : 96.7, BLEU : 63.194
+2022-05-03 10:22:37 | INFO | train_tsf_model.py | [Iteration 31700] SelfLoss : 0.07 CycleLoss : 0.327 StyleLoss : 0.075 ContentLoss : 0
+2022-05-03 10:22:40 | INFO | train_tsf_model.py | [Iteration 31700] Model Checkpoint Saved with Loss : 0.464, Acc : 96.7, BLEU : 63.642
+2022-05-03 10:23:10 | INFO | train_tsf_model.py | [Iteration 31800] SelfLoss : 0.082 CycleLoss : 0.316 StyleLoss : 0.086 ContentLoss : 0
+2022-05-03 10:23:13 | INFO | train_tsf_model.py | [Iteration 31800] Model Checkpoint Saved with Loss : 0.468, Acc : 97.0, BLEU : 63.454
+2022-05-03 10:23:44 | INFO | train_tsf_model.py | [Iteration 31900] SelfLoss : 0.105 CycleLoss : 0.385 StyleLoss : 0.09 ContentLoss : 0
+2022-05-03 10:23:46 | INFO | train_tsf_model.py | [Iteration 31900] Model Checkpoint Saved with Loss : 0.451, Acc : 97.1, BLEU : 63.14
+2022-05-03 10:24:17 | INFO | train_tsf_model.py | [Iteration 32000] SelfLoss : 0.089 CycleLoss : 0.381 StyleLoss : 0.059 ContentLoss : 0
+2022-05-03 10:24:20 | INFO | train_tsf_model.py | [Iteration 32000] Model Checkpoint Saved with Loss : 0.488, Acc : 96.6, BLEU : 63.781
+2022-05-03 10:24:51 | INFO | train_tsf_model.py | [Iteration 32100] SelfLoss : 0.058 CycleLoss : 0.274 StyleLoss : 0.075 ContentLoss : 0
+2022-05-03 10:24:54 | INFO | train_tsf_model.py | [Iteration 32100] Model Checkpoint Saved with Loss : 0.484, Acc : 97.3, BLEU : 63.645
+2022-05-03 10:25:23 | INFO | train_tsf_model.py | [Iteration 32200] SelfLoss : 0.067 CycleLoss : 0.279 StyleLoss : 0.073 ContentLoss : 0
+2022-05-03 10:25:26 | INFO | train_tsf_model.py | [Iteration 32200] Model Checkpoint Saved with Loss : 0.474, Acc : 97.7, BLEU : 63.646
+2022-05-03 10:25:57 | INFO | train_tsf_model.py | [Iteration 32300] SelfLoss : 0.076 CycleLoss : 0.345 StyleLoss : 0.085 ContentLoss : 0
+2022-05-03 10:25:59 | INFO | train_tsf_model.py | [Iteration 32300] Model Checkpoint Saved with Loss : 0.465, Acc : 97.8, BLEU : 63.237
+2022-05-03 10:26:29 | INFO | train_tsf_model.py | [Iteration 32400] SelfLoss : 0.07 CycleLoss : 0.311 StyleLoss : 0.071 ContentLoss : 0
+2022-05-03 10:26:32 | INFO | train_tsf_model.py | [Iteration 32400] Model Checkpoint Saved with Loss : 0.465, Acc : 97.6, BLEU : 63.396
+2022-05-03 10:27:02 | INFO | train_tsf_model.py | [Iteration 32500] SelfLoss : 0.079 CycleLoss : 0.337 StyleLoss : 0.048 ContentLoss : 0
+2022-05-03 10:27:04 | INFO | train_tsf_model.py | [Iteration 32500] Model Checkpoint Saved with Loss : 0.456, Acc : 97.0, BLEU : 63.472
+2022-05-03 10:27:34 | INFO | train_tsf_model.py | [Iteration 32600] SelfLoss : 0.066 CycleLoss : 0.288 StyleLoss : 0.097 ContentLoss : 0
+2022-05-03 10:27:36 | INFO | train_tsf_model.py | [Iteration 32600] Model Checkpoint Saved with Loss : 0.458, Acc : 96.6, BLEU : 63.596
+2022-05-03 10:28:07 | INFO | train_tsf_model.py | [Iteration 32700] SelfLoss : 0.069 CycleLoss : 0.295 StyleLoss : 0.057 ContentLoss : 0
+2022-05-03 10:28:10 | INFO | train_tsf_model.py | [Iteration 32700] Model Checkpoint Saved with Loss : 0.457, Acc : 97.1, BLEU : 63.647
+2022-05-03 10:28:40 | INFO | train_tsf_model.py | [Iteration 32800] SelfLoss : 0.066 CycleLoss : 0.26 StyleLoss : 0.087 ContentLoss : 0
+2022-05-03 10:28:43 | INFO | train_tsf_model.py | [Iteration 32800] Model Checkpoint Saved with Loss : 0.449, Acc : 97.2, BLEU : 63.363
+2022-05-03 10:29:13 | INFO | train_tsf_model.py | [Iteration 32900] SelfLoss : 0.07 CycleLoss : 0.287 StyleLoss : 0.124 ContentLoss : 0
+2022-05-03 10:29:17 | INFO | train_tsf_model.py | [Iteration 32900] Model Checkpoint Saved with Loss : 0.431, Acc : 96.9, BLEU : 63.296
+2022-05-03 10:29:49 | INFO | train_tsf_model.py | [Iteration 33000] SelfLoss : 0.071 CycleLoss : 0.279 StyleLoss : 0.071 ContentLoss : 0
+2022-05-03 10:29:52 | INFO | train_tsf_model.py | [Iteration 33000] Model Checkpoint Saved with Loss : 0.437, Acc : 97.6, BLEU : 62.899
+2022-05-03 10:30:23 | INFO | train_tsf_model.py | [Iteration 33100] SelfLoss : 0.059 CycleLoss : 0.267 StyleLoss : 0.064 ContentLoss : 0
+2022-05-03 10:30:25 | INFO | train_tsf_model.py | [Iteration 33100] Model Checkpoint Saved with Loss : 0.444, Acc : 97.0, BLEU : 63.216
+2022-05-03 10:30:56 | INFO | train_tsf_model.py | [Iteration 33200] SelfLoss : 0.068 CycleLoss : 0.31 StyleLoss : 0.087 ContentLoss : 0
+2022-05-03 10:30:59 | INFO | train_tsf_model.py | [Iteration 33200] Model Checkpoint Saved with Loss : 0.445, Acc : 96.9, BLEU : 63.69
+2022-05-03 10:31:29 | INFO | train_tsf_model.py | [Iteration 33300] SelfLoss : 0.059 CycleLoss : 0.244 StyleLoss : 0.082 ContentLoss : 0
+2022-05-03 10:31:32 | INFO | train_tsf_model.py | [Iteration 33300] Model Checkpoint Saved with Loss : 0.443, Acc : 96.8, BLEU : 63.981
+2022-05-03 10:32:02 | INFO | train_tsf_model.py | [Iteration 33400] SelfLoss : 0.062 CycleLoss : 0.262 StyleLoss : 0.076 ContentLoss : 0
+2022-05-03 10:32:04 | INFO | train_tsf_model.py | [Iteration 33400] Model Checkpoint Saved with Loss : 0.431, Acc : 96.3, BLEU : 63.216
+2022-05-03 10:32:35 | INFO | train_tsf_model.py | [Iteration 33500] SelfLoss : 0.07 CycleLoss : 0.276 StyleLoss : 0.071 ContentLoss : 0
+2022-05-03 10:32:37 | INFO | train_tsf_model.py | [Iteration 33500] Model Checkpoint Saved with Loss : 0.441, Acc : 97.7, BLEU : 62.621
+2022-05-03 10:33:08 | INFO | train_tsf_model.py | [Iteration 33600] SelfLoss : 0.061 CycleLoss : 0.286 StyleLoss : 0.087 ContentLoss : 0
+2022-05-03 10:33:10 | INFO | train_tsf_model.py | [Iteration 33600] Model Checkpoint Saved with Loss : 0.447, Acc : 97.1, BLEU : 63.267
+2022-05-03 10:33:41 | INFO | train_tsf_model.py | [Iteration 33700] SelfLoss : 0.071 CycleLoss : 0.278 StyleLoss : 0.072 ContentLoss : 0
+2022-05-03 10:33:44 | INFO | train_tsf_model.py | [Iteration 33700] Model Checkpoint Saved with Loss : 0.46, Acc : 97.4, BLEU : 62.996
+2022-05-03 10:34:15 | INFO | train_tsf_model.py | [Iteration 33800] SelfLoss : 0.055 CycleLoss : 0.251 StyleLoss : 0.078 ContentLoss : 0
+2022-05-03 10:34:18 | INFO | train_tsf_model.py | [Iteration 33800] Model Checkpoint Saved with Loss : 0.448, Acc : 97.4, BLEU : 63.072
+2022-05-03 10:34:48 | INFO | train_tsf_model.py | [Iteration 33900] SelfLoss : 0.065 CycleLoss : 0.257 StyleLoss : 0.088 ContentLoss : 0
+2022-05-03 10:34:51 | INFO | train_tsf_model.py | [Iteration 33900] Model Checkpoint Saved with Loss : 0.445, Acc : 97.1, BLEU : 62.977
+2022-05-03 10:35:21 | INFO | train_tsf_model.py | [Iteration 34000] SelfLoss : 0.052 CycleLoss : 0.24 StyleLoss : 0.075 ContentLoss : 0
+2022-05-03 10:35:24 | INFO | train_tsf_model.py | [Iteration 34000] Model Checkpoint Saved with Loss : 0.44, Acc : 97.4, BLEU : 61.888
+2022-05-03 10:35:55 | INFO | train_tsf_model.py | [Iteration 34100] SelfLoss : 0.077 CycleLoss : 0.285 StyleLoss : 0.066 ContentLoss : 0
+2022-05-03 10:35:57 | INFO | train_tsf_model.py | [Iteration 34100] Model Checkpoint Saved with Loss : 0.441, Acc : 96.7, BLEU : 62.628
+2022-05-03 10:36:28 | INFO | train_tsf_model.py | [Iteration 34200] SelfLoss : 0.064 CycleLoss : 0.26 StyleLoss : 0.079 ContentLoss : 0
+2022-05-03 10:36:31 | INFO | train_tsf_model.py | [Iteration 34200] Model Checkpoint Saved with Loss : 0.44, Acc : 96.9, BLEU : 62.41
+2022-05-03 10:37:01 | INFO | train_tsf_model.py | [Iteration 34300] SelfLoss : 0.072 CycleLoss : 0.285 StyleLoss : 0.091 ContentLoss : 0
+2022-05-03 10:37:04 | INFO | train_tsf_model.py | [Iteration 34300] Model Checkpoint Saved with Loss : 0.449, Acc : 96.5, BLEU : 62.419
+2022-05-03 10:37:34 | INFO | train_tsf_model.py | [Iteration 34400] SelfLoss : 0.072 CycleLoss : 0.298 StyleLoss : 0.083 ContentLoss : 0
+2022-05-03 10:37:37 | INFO | train_tsf_model.py | [Iteration 34400] Model Checkpoint Saved with Loss : 0.443, Acc : 97.1, BLEU : 62.662
+2022-05-03 10:38:08 | INFO | train_tsf_model.py | [Iteration 34500] SelfLoss : 0.068 CycleLoss : 0.271 StyleLoss : 0.099 ContentLoss : 0
+2022-05-03 10:38:12 | INFO | train_tsf_model.py | [Iteration 34500] Model Checkpoint Saved with Loss : 0.442, Acc : 97.0, BLEU : 63.092
+2022-05-03 10:38:42 | INFO | train_tsf_model.py | [Iteration 34600] SelfLoss : 0.064 CycleLoss : 0.316 StyleLoss : 0.079 ContentLoss : 0
+2022-05-03 10:38:45 | INFO | train_tsf_model.py | [Iteration 34600] Model Checkpoint Saved with Loss : 0.459, Acc : 96.5, BLEU : 62.979
+/n/fs/nlp-saml/miniconda3/envs/racoln/lib/python3.7/site-packages/torch/nn/modules/rnn.py:65: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  "num_layers={}".format(dropout, num_layers))
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.093 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.093 MB uploaded (0.000 MB deduped)wandb: - 0.092 MB of 0.093 MB uploaded (0.000 MB deduped)wandb: \ 0.092 MB of 0.093 MB uploaded (0.000 MB deduped)wandb: | 0.093 MB of 0.093 MB uploaded (0.000 MB deduped)wandb: / 0.093 MB of 0.093 MB uploaded (0.000 MB deduped)wandb: - 0.093 MB of 0.093 MB uploaded (0.000 MB deduped)wandb: \ 0.093 MB of 0.093 MB uploaded (0.000 MB deduped)wandb: | 0.093 MB of 0.093 MB uploaded (0.000 MB deduped)wandb: / 0.093 MB of 0.093 MB uploaded (0.000 MB deduped)wandb: - 0.093 MB of 0.093 MB uploaded (0.000 MB deduped)wandb: \ 0.093 MB of 0.093 MB uploaded (0.000 MB deduped)wandb: | 0.093 MB of 0.093 MB uploaded (0.000 MB deduped)wandb: / 0.093 MB of 0.093 MB uploaded (0.000 MB deduped)wandb: - 0.093 MB of 0.093 MB uploaded (0.000 MB deduped)wandb: \ 0.093 MB of 0.093 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:    cycle_loss █▇▅▄▄▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▁▁▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:  dev_accuracy ▁▅▆▆▆▆▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇▇▇██▇▇██▇█████████
+wandb:      dev_loss █▆▄▄▃▃▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        loss_r ▂▂▁▂▃▃▄▂▃▄▃▅▅▁▅▄▆▁▂▂▄▁▃▅▃▁▄▂▃▃▂█▂▄▃▃▄▁▂▁
+wandb:       mseLoss ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:     self_loss █▇▅▄▃▃▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: test_accuracy ▁▆▆▆▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇▇█▇▇▇█████▇█████████
+wandb:     test_loss █▆▄▄▃▃▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:    cycle_loss 0.30075
+wandb:  dev_accuracy 0.977
+wandb:      dev_loss 0.40661
+wandb:        loss_r 0.07462
+wandb:       mseLoss 0
+wandb:     self_loss 0.06574
+wandb: test_accuracy 0.965
+wandb:     test_loss 0.45935
+wandb: 
+wandb: Synced no_contentLoss: https://wandb.ai/iamsamliang/RACoLN/runs/1vez7xel
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20220503_072622-1vez7xel/logs

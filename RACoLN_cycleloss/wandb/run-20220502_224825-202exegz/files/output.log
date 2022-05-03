@@ -1,0 +1,14 @@
+/n/fs/nlp-saml/miniconda3/envs/racoln/lib/python3.7/site-packages/torch/nn/modules/rnn.py:65: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  "num_layers={}".format(dropout, num_layers))
+2022-05-02 22:49:08 | INFO | train_tsf_model.py | [Iteration 100] SelfLoss : 5.011 CycleLoss : 5.279 StyleLoss : 0 ContentLoss : 0.079
+2022-05-02 22:49:13 | INFO | train_tsf_model.py | [Iteration 100] Model Checkpoint Saved with Loss : 10.342, Acc : 50.9, BLEU : 2.732
+2022-05-02 22:49:39 | INFO | train_tsf_model.py | [Iteration 200] SelfLoss : 4.354 CycleLoss : 4.682 StyleLoss : 0 ContentLoss : 0.05
+2022-05-02 22:49:43 | INFO | train_tsf_model.py | [Iteration 200] Model Checkpoint Saved with Loss : 9.232, Acc : 56.4, BLEU : 3.456
+Traceback (most recent call last):
+  File "train_tsf_model.py", line 126, in <module>
+    (config.styleLossCoef*loss_r+cycle_loss+mseLoss).backward()
+  File "/n/fs/nlp-saml/miniconda3/envs/racoln/lib/python3.7/site-packages/torch/_tensor.py", line 255, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/n/fs/nlp-saml/miniconda3/envs/racoln/lib/python3.7/site-packages/torch/autograd/__init__.py", line 149, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+KeyboardInterrupt

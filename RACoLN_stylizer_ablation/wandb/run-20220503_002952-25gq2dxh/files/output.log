@@ -1,0 +1,12 @@
+
+torch.Size([512, 200])
+Traceback (most recent call last):
+  File "train_tsf_model.py", line 121, in <module>
+    self_loss, hidden_self = computeSelfLoss(batch, G, dec, nll)
+  File "/n/fs/nlp-saml/RACoLN_stylizer_ablation/src/util.py", line 124, in computeSelfLoss
+    decoder_outputs, decoder_hidden, ret_dict = dec(None, hidden_self.unsqueeze(0), output_selt, mask = src_mask, attn_hidden = attn_hidden_self, label=batch.C, gumbel = False, max_length = max_len)
+  File "/n/fs/nlp-saml/miniconda3/envs/racoln/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/n/fs/nlp-saml/RACoLN_stylizer_ablation/src/model.py", line 226, in forward
+    decoder_hidden = torch.cat([style_vec, decoder_hidden], dim=-1)
+RuntimeError: Tensors must have same number of dimensions: got 3 and 2

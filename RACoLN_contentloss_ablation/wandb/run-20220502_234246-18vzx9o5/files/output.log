@@ -1,0 +1,19 @@
+/n/fs/nlp-saml/miniconda3/envs/racoln/lib/python3.7/site-packages/torch/nn/modules/rnn.py:65: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  "num_layers={}".format(dropout, num_layers))
+2022-05-02 23:43:31 | INFO | train_tsf_model.py | [Iteration 100] SelfLoss : 4.812 CycleLoss : 4.946 StyleLoss : 0.055 ContentLoss : 0
+2022-05-02 23:43:37 | INFO | train_tsf_model.py | [Iteration 100] Model Checkpoint Saved with Loss : 9.804, Acc : 63.5, BLEU : 3.068
+2022-05-02 23:44:04 | INFO | train_tsf_model.py | [Iteration 200] SelfLoss : 4.26 CycleLoss : 4.475 StyleLoss : 0.061 ContentLoss : 0
+Traceback (most recent call last):
+  File "train_tsf_model.py", line 146, in <module>
+    loss, accuracy, bleu_scores= getLossAndMetrics(test_iter,G, dec, nll, enc_r, attn_r, senti_r, BCE, mse, config, pad_idx, enc_cls, attn_cls, senti_cls, len(test), X_VOCAB, C_LABEL, save=True)
+  File "/n/fs/nlp-saml/RACoLN_contentloss_ablation/src/util.py", line 173, in getLossAndMetrics
+    hidden, output, attn_hidden, src_mask, _ = G(batch.X)
+  File "/n/fs/nlp-saml/miniconda3/envs/racoln/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/n/fs/nlp-saml/RACoLN_contentloss_ablation/src/model.py", line 100, in forward
+    output, hidden = self.enc_cls(X)
+  File "/n/fs/nlp-saml/miniconda3/envs/racoln/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/n/fs/nlp-saml/RACoLN_contentloss_ablation/src/model.py", line 32, in forward
+    packed = nn.utils.rnn.pack_padded_sequence(embedded, X[1].cpu(), batch_first=False, enforce_sorted=False)
+KeyboardInterrupt

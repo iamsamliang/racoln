@@ -1,0 +1,9 @@
+/n/fs/nlp-saml/miniconda3/envs/racoln/lib/python3.7/site-packages/torch/nn/modules/rnn.py:65: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  "num_layers={}".format(dropout, num_layers))
+2022-05-02 22:46:48 | INFO | train_tsf_model.py | [Iteration 100] SelfLoss : 5.011 CycleLoss : 5.279 StyleLoss : 0 ContentLoss : 0.079
+Traceback (most recent call last):
+  File "train_tsf_model.py", line 137, in <module>
+    loss, accuracy, bleu_scores= getLossAndMetrics(dev_iter,G, dec, nll, enc_r, attn_r, senti_r, BCE, mse, config, pad_idx, enc_cls, attn_cls, senti_cls, len(dev), X_VOCAB, C_LABEL)
+  File "/n/fs/nlp-saml/RACoLN_styleloss_ablation/src/util.py", line 169, in getLossAndMetrics
+    style_loss_list+= loss_r.item()* batch.C.size(0)
+AttributeError: 'int' object has no attribute 'item'
